@@ -3,3 +3,6 @@ email: root@antoniobaltazar.com
 description: >- # this means to ignore newlines until "baseurl:"
   Anecdotes from a Linux Systems Administrator. /root
 theme: jekyll-theme-hacker
+twitter_username: alpha01
+github_username:  alpha01
+permalink: /:categories/:title
