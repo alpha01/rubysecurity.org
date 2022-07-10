@@ -1,7 +1,7 @@
 ---
 categories:
 - web servers
-layout: books
+layout: posts
 title: Apache Cookbook
 created: 1542001450
 ---
