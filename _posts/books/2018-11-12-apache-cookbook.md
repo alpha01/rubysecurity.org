@@ -4,7 +4,6 @@ categories:
 layout: post
 title: Apache Cookbook
 created: 1542001450
-permalink: /wtf
 ---
 Apache Cookbook is yet another one of those books that I bought over a decade, and never completed reading it, in it’s entirely.  As I continue to finally read my old tech books so I can clear out my book shelve, this is a somewhat outdated book by today’s standards. This book covers Apache versions 1.3, 1.4, 2.0, and 2.2; and the some differences between them.
 
