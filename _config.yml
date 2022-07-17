@@ -6,13 +6,18 @@ theme: jekyll-theme-hacker
 twitter_username: alpha01
 github_username:  alpha01
 permalink: /:categories/:title
-# url: alpha01.github.io
-# baseurl: /rubysecurity.org/
+google_analytics:
+url: ""
+baseurl: ""
 author: Alpha01
 header_pages:
   - about.md
 plugins:
   - jekyll-feed
+  - jekyll-toc
+  - jekyll-sitemap
+repository: alpha01/rubysecurity.org
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
