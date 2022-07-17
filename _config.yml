@@ -6,8 +6,8 @@ theme: jekyll-theme-hacker
 twitter_username: alpha01
 github_username:  alpha01
 permalink: /:categories/:title
-url: alpha01.github.io
-baseurl: /rubysecurity.org/
+# url: alpha01.github.io
+# baseurl: /rubysecurity.org/
 author: Alpha01
 header_pages:
   - about.md
