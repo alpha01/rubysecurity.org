@@ -1,9 +1,7 @@
 ---
 categories:
   - "web-servers"
-tags:
-  - books
-  - apache
+tags: ["apache", "books"]
 layout: post
 title: Apache Cookbook
 created: 1542001450
@@ -17,16 +15,18 @@ The book assumes you have basic knowledge of Apache and Server and Client concep
 <strong>Rating:3/5</strong>
 <a href="https://www.amazon.com/Apache-Cookbook-Ken-Coar/dp/0596001916" target="_blank">Apache Cookbook</a>
 
-Chapter 1: Installation
-Chapter 2: Adding Common Modules
-Chapter 3: Logging
-Chapter 4: Virtual Hosts
-Chapter 5: Aliases, Redirecting, and Rewriting
-Chapter 6: Security
-Chapter 7: SSL
-Chapter 8: Dynamic Content
-Chapter 9: Error Handling
-Chapter 10: Proxies
-Chapter 11: Performance
-Chapter 12: Directory Listings
-Chapter 13: Miscellaneous Topics
+![Apache Cookbook](/assets/books/apache-cookbook.jpg)
+
+* Chapter 1: Installation
+* Chapter 2: Adding Common Modules
+* Chapter 3: Logging
+* Chapter 4: Virtual Hosts
+* Chapter 5: Aliases, Redirecting, and Rewriting
+* Chapter 6: Security
+* Chapter 7: SSL
+* Chapter 8: Dynamic Content
+* Chapter 9: Error Handling
+* Chapter 10: Proxies
+* Chapter 11: Performance
+* Chapter 12: Directory Listings
+* Chapter 13: Miscellaneous Topics
