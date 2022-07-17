@@ -6,3 +6,5 @@ theme: jekyll-theme-hacker
 twitter_username: alpha01
 github_username:  alpha01
 permalink: /:categories/:title
+header_pages:
+  - about.md
