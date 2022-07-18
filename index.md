@@ -37,14 +37,14 @@
 ### TEST
 
 {% for post in site.posts %}
-    {% unless post.categories contains "books" or post.categories contains "header" %}
+    {% unless post.categories contains "books" or post.title contains "About" %}
 
 <small>{{ post.date | date: "%-d %B %Y" }}</small>
-<h1>{{ post.title }}</h1>
+# <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 
 <p class="view">by {{ post.author | default: site.author }}</p>
 
-{{content}}
+{{ post.content }}
 
 {% if post.tags %}
   <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>

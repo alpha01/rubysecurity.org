@@ -22,7 +22,7 @@ Error: Failed to download metadata for repo 'appstream': Cannot prepare internal
 
 Instead of opting to <a href="https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky#el80-migrations" target="_blank">update the repos to point the CentOS archive vault repositories</a>. I wanted to just try the migration from my 8.4.2105 running version. After all this particular system is just a Postfix mailserver, and if it botched completely, I'm easily able to recreate the mail server using my Ansible automation.
 
-The update process is just a matter of running the <a href="https://github.com/rocky-linux/rocky-tools/blob/main/migrate2rocky/migrate2rocky.sh" target="_blank>migrate2rocky.sh migration shell script.</a>
+The update process is just a matter of running the <a href="https://github.com/rocky-linux/rocky-tools/blob/main/migrate2rocky/migrate2rocky.sh" target="_blank">migrate2rocky.sh migration shell script.</a>
 
 ```bash
 [root@mail migrate2rocky]# ./migrate2rocky.sh -r
@@ -72,7 +72,7 @@ The beauty of binary compatible Linux distributions is that although updates are
 
 Ironically, over a decade ago I had to do similar migration from <a href="https://www.whiteboxlinux.org/" target="_blank">White Box Enterprise Linux</a> to CentOS 3.  At the time, I simply had to update the repo URLs, refresh yum, and pull down the latest updates from the CentOS 3 repos. All of which  worked beautifully.
 
-Resources:
+### Resources:
 
-* https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky
-* https://www.cyberciti.biz/howto/migrate-from-centos-8-to-rocky-linux-conversion/
+* <a href="https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky" target="_blank">https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky</a>
+* <a href="https://www.cyberciti.biz/howto/migrate-from-centos-8-to-rocky-linux-conversion/" target="_blank">https://www.cyberciti.biz/howto/migrate-from-centos-8-to-rocky-linux-conversion</a>
