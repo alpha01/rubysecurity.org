@@ -50,6 +50,5 @@
   <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 <hr>
-
     {% endunless %}
   {% endfor %}
