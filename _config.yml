@@ -11,13 +11,18 @@ url: ""
 baseurl: ""
 author: Alpha01
 header_pages:
+  - home.md
   - about.md
+  - blog.html
+  - portfolio.html
 plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-sitemap
 repository: alpha01/rubysecurity.org
 markdown: kramdown
+paginate: 10
+paginate_path: /blog/page/:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

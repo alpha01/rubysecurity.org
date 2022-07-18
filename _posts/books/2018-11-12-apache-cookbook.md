@@ -1,6 +1,7 @@
 ---
 categories:
-  - "web-servers"
+  - books
+  - apache
 tags: apache
 layout: post
 title: Apache Cookbook
