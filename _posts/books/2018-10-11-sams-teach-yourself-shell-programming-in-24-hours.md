@@ -20,7 +20,7 @@ Most if not all of the examples described in this book were really easy to follo
 
 Sams Teach Yourself Shell Programming in 24 Hours
 
-<a href="https://www.amazon.com/Teach-Yourself-Shell-Programming-Hours/dp/0672314819" target="_blank"><img src="/teach-yourself-shell-programming.jpg"></a>
+<a href="https://www.amazon.com/Teach-Yourself-Shell-Programming-Hours/dp/0672314819" target="_blank"><img src="/assets/books/teach-yourself-shell-programming.jpg"></a>
 
 * Chapter 1: Shell Basics
 * Chapter 2: Script Basics
