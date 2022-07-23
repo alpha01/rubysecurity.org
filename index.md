@@ -40,7 +40,7 @@
     {% unless post.categories contains "books" or post.title contains "About" %}
 
 <small>{{ post.date | date: "%-d %B %Y" }}</small>
-# <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+# <a href="{{ post.url | relative_url }}" class="blog-post">{{ post.title }}</a>
 
 <p class="view">by {{ post.author | default: site.author }}</p>
 

@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.blog-post a:hover, a:visited, a:link, a:active {
+    text-decoration: none; 
+}
+
+.blog-post {
+    font-weight: normal;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    letter-spacing: -0.03em;
+}
