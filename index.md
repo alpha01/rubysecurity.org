@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-### Posts
+## Recent Posts
 <ul>
   {% for post in site.posts %}
     {% unless post.categories contains "books" %}
@@ -11,7 +9,7 @@
   {% endfor %}
 </ul>
 
-### Book Reviews
+## Recent Book Reviews
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains "books" %}

@@ -14,3 +14,5 @@ I originally planned on using this name because the site was initially going to 
 This site is focused on documenting my experiences as both a user and Linux Systems Administrator; the good, bad, and the ugly. Also about the occasional programming project and gotchas, and finally, technical book reviews.
 
 \- Tony Baltazar
+
+<hr>
