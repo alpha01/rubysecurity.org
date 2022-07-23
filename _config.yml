@@ -11,10 +11,8 @@ url: ""
 baseurl: ""
 author: Alpha01
 header_pages:
-  - home.md
   - about.md
-  - blog.html
-  - portfolio.html
+  - category/books.md
 plugins:
   - jekyll-feed
   - jekyll-toc
