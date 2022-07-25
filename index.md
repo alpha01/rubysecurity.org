@@ -3,7 +3,7 @@
   {% for post in site.posts %}
     {% unless post.categories contains "books" %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small><em>Posted on {{ post.date | date: "%B %-d, %Y" }}</em></small>
     </li>
     {% endunless %}
   {% endfor %}
@@ -11,13 +11,20 @@
 
 ## Recent Book Reviews
 <ul>
+  {% assign book_review_counter = 0 %}
+  {% assign book_review_limit = 5 %}
   {% for post in site.posts %}
     {% if post.categories contains "books" %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small><em>Posted on {{ post.date | date: "%B %-d, %Y" }}</em></small>
     </li>
+    {% assign book_review_counter = book_review_counter | plus: 1 %}
+      {% if book_review_counter == book_review_limit %}
+        {% break %}
+      {% endif %}
     {% endif %}
   {% endfor %}
+  <small><a href="/books">All Book Reviews</a></small>
 </ul>
 
 
