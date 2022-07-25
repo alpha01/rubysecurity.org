@@ -1,6 +1,6 @@
 title: rubysecurity.org
 email: root@antoniobaltazar.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "theme:"
   Anecdotes from a Linux Systems Administrator. /root
 theme: jekyll-theme-hacker
 twitter_username: alpha01

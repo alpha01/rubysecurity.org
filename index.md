@@ -29,17 +29,20 @@
 
 
 <h1>Book Tag Cloud</h1>
-{% assign tags = site.tags | sort %}
-{% for tag in tags %}
- <span class="site-tag">
-    <a href="/tag/{{ tag | first | slugify }}/"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+<div class="blog-tags">
+    {% assign tags = site.categories | sort %}
+    {% for tag in tags %}
+      {% unless tag contains "books" %}
+    <a href="#{{ tag[0] | slugify }}" class="btn btn-default" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%"> <!-- style="color: #1C1C1C;" is font color of cloud index -->
+      <span class="fa fa-folder-open" aria-hidden="true">
+        {{ tag[0] }} <i class="badge">{{ tag | last | size }}</i>
+      </span>
     </a>
-</span>
-{% endfor %}
+      {% endunless %}
+    {% endfor %}
+  </div>
 
-### TEST
+## TEST
 
 {% for post in site.posts %}
     {% unless post.categories contains "books" or post.title contains "About" %}
