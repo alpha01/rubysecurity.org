@@ -10,3 +10,5 @@ categories: header
 {% for post in site.categories.books %}
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+
+<hr>
