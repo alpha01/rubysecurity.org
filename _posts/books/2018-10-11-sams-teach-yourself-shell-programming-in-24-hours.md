@@ -4,6 +4,7 @@ categories:
  - bash
 tags: bash
 layout: post
+hidden: true
 title: Sams Teach Yourself Shell Programming in 24 Hours
 created: 1539232992
 ---

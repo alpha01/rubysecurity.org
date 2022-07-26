@@ -4,6 +4,7 @@ categories:
   - comptia
 tags: comptia
 layout: post
+hidden: true
 title: The CompTIA Cloud Essentials Certification Study Guide
 created: 1573338856
 ---

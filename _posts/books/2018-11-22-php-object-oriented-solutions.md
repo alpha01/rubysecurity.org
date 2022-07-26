@@ -4,6 +4,7 @@ categories:
   - php
 tags: php
 layout: post
+hidden: true
 title: PHP Object-Oriented Solutions
 created: 1542871508
 ---

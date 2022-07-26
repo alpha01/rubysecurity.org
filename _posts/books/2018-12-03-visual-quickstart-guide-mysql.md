@@ -3,6 +3,7 @@ categories:
   - books
   - mysql
 layout: post
+hidden: true
 title: 'Visual Quickstart Guide: MySQL'
 created: 1543804802
 ---

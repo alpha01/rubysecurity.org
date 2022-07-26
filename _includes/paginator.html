@@ -1,0 +1,40 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    <nav aria-label="Pagination">
+        <ul class="pagination text-center">
+        {% if paginator.previous_page %}
+        <li class="pagination-previous"><a href="/{{ paginator.previous_page_path }}">Previous</a></li>
+        {% else %}
+        <li class="pagination-previous disabled">Previous</li>
+        {% endif %}
+
+        {% for counter in (1..paginator.total_pages) %}
+            {% comment %}
+                Special case: page1 will be the index page, so the link has to be generated manually
+            {% endcomment %}
+
+            {% if counter == 1%}
+                {% if counter == paginator.page %}
+                <li class="current">{{ counter }}</li>
+                {% else %}
+                <li><a href="/">{{ counter }}</a></li>
+                {% endif %}
+            {% else %}
+                {% if counter == paginator.page %}
+                <li class="current">{{ counter }}</li>
+                {% else %}
+                <li><a href="/posts/page{{ counter }}">{{ counter }}</a></li>
+                {% endif %}
+            {% endif %}
+
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <li class="pagination-next"><a href="/{{ paginator.next_page_path }}">Next</a></li>
+        {% else %}
+        <li class="pagination-next disabled">Next</li>
+        {% endif %}
+        </ul>
+    </nav>
+</div>
+{% endif %}

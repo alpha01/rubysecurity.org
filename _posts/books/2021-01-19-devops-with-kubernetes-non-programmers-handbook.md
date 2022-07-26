@@ -3,6 +3,7 @@ categories:
   - books
   - kubernetes
 layout: post
+hidden: true
 tags: kubernetes
 title: 'DevOps with Kubernetes: Non-Programmer''s Handbook'
 created: 1611034285

@@ -4,6 +4,7 @@ categories:
   - linux
 tags: rhce
 layout: post
+hidden: true
 title: RHCSA/RHCE Red Hat Linux Certification Study Guide (Sixth Edition)
 created: 1558937828
 ---

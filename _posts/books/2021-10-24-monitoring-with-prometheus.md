@@ -4,6 +4,7 @@ categories:
 - prometheus
 tags: prometheus
 layout: post
+hidden: true
 title: Monitoring with Prometheus
 created: 1635048008
 ---

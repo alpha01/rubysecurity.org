@@ -4,6 +4,7 @@ categories:
   - php
 tags: php
 layout: post
+hidden: true
 title: Beginning PHP and MySQL
 created: 1526617947
 ---

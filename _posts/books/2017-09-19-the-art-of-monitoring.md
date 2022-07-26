@@ -4,6 +4,7 @@ categories:
   - monitoring
 tags: monitoring
 layout: post
+hidden: true
 title: The Art of Monitoring
 created: 1505798488
 ---

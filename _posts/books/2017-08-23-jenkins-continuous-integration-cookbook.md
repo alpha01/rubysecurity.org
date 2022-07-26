@@ -4,6 +4,7 @@ categories:
   - jenkins
 tags: jenkins
 layout: post
+hidden: true
 title: Jenkins Continuous Integration Cookbook
 created: 1503461342
 ---

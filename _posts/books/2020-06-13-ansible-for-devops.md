@@ -4,6 +4,7 @@ categories:
   - ansible
 tags: ansible
 layout: post
+hidden: true
 title: Ansible for DevOps
 created: 1592022758
 ---

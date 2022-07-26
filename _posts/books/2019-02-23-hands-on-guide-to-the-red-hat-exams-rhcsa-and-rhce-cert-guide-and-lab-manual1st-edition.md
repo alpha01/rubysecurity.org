@@ -4,6 +4,7 @@ categories:
   - linux
 tags: rhce
 layout: post
+hidden: true
 title: 'Hands-on Guide to the Red Hat Exams: RHCSA and RHCE Cert Guide and Lab Manual 1st Edition'
 created: 1550898292
 ---

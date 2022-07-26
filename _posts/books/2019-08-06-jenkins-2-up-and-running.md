@@ -4,6 +4,7 @@ categories:
   - jenkins
 tags: jenkins
 layout: post
+hidden: true
 title: 'Jenkins 2: Up and Running'
 created: 1565050594
 ---

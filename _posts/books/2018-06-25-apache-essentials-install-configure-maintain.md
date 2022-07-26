@@ -4,6 +4,7 @@ categories:
   - apache
 tags: apache
 layout: post
+hidden: true
 title: 'Apache Essentials: Install, Configure, Maintain'
 created: 1529906721
 ---

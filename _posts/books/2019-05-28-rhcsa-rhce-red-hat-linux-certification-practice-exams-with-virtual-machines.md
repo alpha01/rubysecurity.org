@@ -4,6 +4,7 @@ categories:
   - linux
 tags: rhce
 layout: post
+hidden: true
 title: RHCSA/RHCE Red Hat Linux Certification Practice Exams with Virtual Machines
 created: 1559023108
 ---

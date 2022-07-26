@@ -4,6 +4,7 @@ categories:
   - database
 tags: database
 layout: post
+hidden: true
 title: Sams Teach Yourself SQL in 10 Minutes
 created: 1557892619
 ---

@@ -3,6 +3,7 @@ categories:
 - books
 - DevOps
 layout: post
+hidden: true
 tags: DevOps
 title: Effective DevOps
 created: 1641420037

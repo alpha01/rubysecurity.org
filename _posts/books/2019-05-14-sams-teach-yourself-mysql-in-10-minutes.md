@@ -4,6 +4,7 @@ categories:
   - mysql
 tags: mysql
 layout: post
+hidden: true
 title: Sams Teach Yourself MySQL in 10 Minutes
 created: 1557809274
 ---

@@ -4,9 +4,11 @@ categories:
   - jenkins
 tags: jenkins
 layout: post
+hidden: true
 title: Integrating PHP Projects with Jenkins
 created: 1497114574
 ---
+
 Integrating PHP Projects with Jenkins has the honorary record of being up to now the worse technical book that I’ve read so far. This is an extremely rushed book that poorly describes the complex examples in it. Perhaps the most furious part of reading this book is that fact that the examples described are no longer accessible! It's absolutely mind boggling that the example material covered in this book is no longer available; and the author didn’t even bothered updating the corresponding GitHub repository.  Interestingly enough, the corresponding site <a href="http://jenkins-php.org/" target="_blank">jenkins-php.org</a> is still online; this almost feels like the author simply doesn't give a flying fuck about the book that he published. 
 
 This book is suppose to be a short, high-level Jenkins integration reference for experienced PHP developers. However, the only good thing about this book is that it does mentions a lot of useful <a href="http://jenkins-php.org/installation.htm" target="_blank">tools</a> to test your PHP applications. It only mentions them, it does <strong>NOT</strong> go into detail on how to use these tools.  Of which a good number of the tools mentioned in this book were written by author himself!

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<h1>Latest Book Reviews</h1>
+<ul>
+  {% assign book_review_counter = 0 %}
+  {% assign book_review_limit = 5 %}
+  {% for post in site.posts %}
+    {% if post.categories contains "books" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small><em>Posted on {{ post.date | date: "%B %-d, %Y" }}</em></small>
+    </li>
+    {% assign book_review_counter = book_review_counter | plus: 1 %}
+      {% if book_review_counter == book_review_limit %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <small><a href="/books">All Book Reviews</a></small>
+</ul>
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h1>{{ page.list_title | default: "Latest Posts" }}</h1>
+    <ul class="post-list">
+      {%- for post in paginator.posts -%}
+        {% unless post.categories contains "books" or post.title contains "About" %}
+          <li>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+              <small><em>Posted on {{ post.date | date: "%B %-d, %Y" }}</em></small>
+            
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+        {% endunless %}
+      {%- endfor -%}
+    </ul>
+    
+    {%- include paginator.html -%}
+
+    <hr>
+
+    <!-- Blog Post Content -->
+    {%- for post in paginator.posts -%}
+      {% unless post.categories contains "books" or post.title contains "About" %}
+
+      <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+      <h1><a href="{{ post.url | relative_url }}" class="blog-post">{{ post.title }}</a></h1>
+
+      <p class="view">by {{ post.author | default: site.author }}</p>
+
+      {{ post.content }}
+
+      {% if post.tags %}
+        <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}
+      <hr>
+          {% endunless %}
+    {%- endfor -%}
+
+  {%- endif -%}
+</div>

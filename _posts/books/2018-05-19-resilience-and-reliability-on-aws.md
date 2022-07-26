@@ -4,6 +4,7 @@ categories:
   - aws
 tags: aws
 layout: post
+hidden: true
 title: Resilience and Reliability on AWS
 created: 1526710172
 ---

@@ -4,6 +4,7 @@ categories:
   - aws
 tags: aws
 layout: post
+hidden: true
 title: 'AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam 2nd Edition'
 created: 1573863914
 ---

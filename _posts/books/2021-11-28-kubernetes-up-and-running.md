@@ -4,6 +4,7 @@ categories:
   - kubernetes
 tags: kubernetes
 layout: post
+hidden: true
 title: 'Kubernetes: Up and Running'
 created: 1638077991
 ---
