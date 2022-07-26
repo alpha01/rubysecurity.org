@@ -61,9 +61,12 @@ layout: default
 
       {{ post.content }}
 
-      {% if post.tags %}
-        <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
-      {% endif %}
+      <span>Tags: [
+        {% for tag in post.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
+        {% endfor %}
+      ]</span>
       <hr>
           {% endunless %}
     {%- endfor -%}
