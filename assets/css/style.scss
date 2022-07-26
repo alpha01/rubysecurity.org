@@ -3,6 +3,17 @@
 
 @import "{{ site.theme }}";
 
+.page-link {
+    color: #fdfdfd;
+}
+
+.page-link:hover {
+    box-shadow: inset 100px 0 0 0 white !important;
+    color: black;
+    border-radius: 3px;
+}
+
+
 .blog-post a:hover, a:visited, a:link, a:active {
     text-decoration: none; 
 }
