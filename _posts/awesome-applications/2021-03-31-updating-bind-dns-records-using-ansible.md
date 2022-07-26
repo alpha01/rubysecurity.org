@@ -1,10 +1,12 @@
 ---
 categories:
-- awesome-applications
-- ansible
-- bind
+  - awesome-applications
+  - ansible
+  - bind
 layout: post
-tags: ansible
+tags:
+  - ansible
+  - bind
 title: Updating BIND DNS records using Ansible
 created: 1617169192
 ---

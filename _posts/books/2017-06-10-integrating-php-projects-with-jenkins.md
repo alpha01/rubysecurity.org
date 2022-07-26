@@ -2,7 +2,9 @@
 categories:
   - books
   - jenkins
-tags: jenkins
+tags:
+  - jenkins
+  - php
 layout: post
 hidden: true
 title: Integrating PHP Projects with Jenkins

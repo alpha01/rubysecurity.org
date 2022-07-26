@@ -2,7 +2,9 @@
 categories:
   - books
   - php
-tags: php
+tags:
+  - php
+  - mysql
 layout: post
 hidden: true
 title: Beginning PHP and MySQL

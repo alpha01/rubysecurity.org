@@ -2,7 +2,9 @@
 categories:
   - awesome-applications
   - prometheus
-tags: prometheus
+tags:
+ - prometheus
+ - nagios
 layout: post
 title: RIP Nagios
 created: 1623032971

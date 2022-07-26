@@ -1,8 +1,9 @@
 ---
 categories:
   - books
-  - "web development"
-tags: "web development"
+  - "web-development"
+tags:
+  - "web-development"
 layout: post
 hidden: true
 title: Head First HTML and CSS
