@@ -30,7 +30,7 @@
         {% endfor %}
 
         {% if paginator.next_page %}
-        <li class="pagination-next"><a href="/{{ paginator.next_page_path }}">Next</a></li>
+        <li class="pagination-next"><a href="{{ paginator.next_page_path }}">Next</a></li>
         {% else %}
         <li class="pagination-next disabled">Next</li>
         {% endif %}

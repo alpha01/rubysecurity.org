@@ -13,3 +13,13 @@
     color: #b5e853;
     letter-spacing: -0.03em;
 }
+
+.pagination {
+    text-align: center;
+}
+
+ul.pagination > li {
+    display: inline-block;
+    padding: 0 0.5em;
+    border: 1px solid #b5e853;
+}
