@@ -1,8 +1,10 @@
 ---
 categories:
- - linux
- - centos
-tags: centos
+  - linux
+  - centos
+tags:
+  - centos
+  - rhel
 layout: post
 title: "Goodbye CentOS 8, Hello Rocky Linux"
 created: 1644368721
