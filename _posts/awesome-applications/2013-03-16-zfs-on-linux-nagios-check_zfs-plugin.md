@@ -3,7 +3,6 @@ categories:
   - awesome-applications
   - nagios
 tags:
-  - tags
   - perl
   - nagios
   - zfs
