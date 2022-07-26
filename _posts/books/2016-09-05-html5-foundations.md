@@ -5,6 +5,7 @@ categories:
 tags:
   - "web-development"
 layout: post
+hidden: true
 title: HTML5 Foundations
 created: 1473111456
 ---

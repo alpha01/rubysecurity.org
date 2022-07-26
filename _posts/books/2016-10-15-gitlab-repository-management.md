@@ -5,6 +5,7 @@ categories:
 tags:
   - gitlab
 layout: post
+hidden: true
 title: GitLab Repository Management
 created: 1476502740
 ---
