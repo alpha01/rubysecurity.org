@@ -15,7 +15,7 @@ I’d say about 60% of the content is still valid. Though you have to take this 
 
 The book assumes you have basic knowledge of Apache and Server and Client concepts. If you’re completely new to server administration, you may find this book a bit to advance. Thus said, reading this book you’ll learn basic concepts like Apache name based and IP based virtual hosting, logging, rewriting urls, security, SSL, proxy configuration, and Apache performance concepts and techniques.
 
-### Rating:3/5
+### Rating: 3/5
 
 Apache Cookbook: Solutions and Examples for Apache Administrators
 

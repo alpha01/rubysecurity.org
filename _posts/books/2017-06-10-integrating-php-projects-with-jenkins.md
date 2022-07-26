@@ -19,7 +19,7 @@ To me the underlying reason why the author published this book was to give his P
 
 This is a terrible book, and would not suggest anyone buying it.
 
-<strong>Rating: 1/5</strong>
+### Rating: 1/5
 
 Integrating PHP Projects with Jenkins: Continuous Integration for Robust Building and Testing
 

@@ -17,7 +17,7 @@ The first two chapters are the only good Docker information that you’ll find r
  
 This book is terrible and would not recommend it to anyone, instead you’re better of reading the official documentation.
 
-**Rating 1/5**
+### Rating 1/5
 
 Pro Docker: Learn how to use Containers as a Service for development and deployment
 

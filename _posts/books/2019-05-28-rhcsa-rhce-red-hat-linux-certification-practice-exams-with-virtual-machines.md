@@ -13,7 +13,7 @@ This book serves as companion to <a href="https://www.rubysecurity.org/RHCSA-RHC
 
 This book is more of a primer, were it goes over the main exam objectives extremely briefly (which works as a great refresher). It is significant shorter than the other book; main difference is the labs on this book are significantly much more complex. Originally, I read both books jointly, however I feel the best approach to get the most of out this was was to first read <a href="https://www.rubysecurity.org/RHCSA-RHCE_Red_Hat_Linux_Certification_Study_Guide_Sixth_Edition" target="_blank">RHCSA/RHCE Red Hat Linux Certification Study Guide (Sixth Edition)</a>, then continue on with this book. The reason being is that the chapter topics are exactly the same on both books. 
 
-**Rating 3/5**
+### Rating 3/5
 
 RHCSA/RHCE Red Hat Linux Certification Practice Exams with Virtual Machines
 

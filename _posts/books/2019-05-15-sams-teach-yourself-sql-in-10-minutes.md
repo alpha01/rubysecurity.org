@@ -15,7 +15,7 @@ This book goes into far more detail than <a href="https://www.rubysecurity.org/S
 
 This book was extremely easy to follow and very well written, and in my opinion it is perhaps the best introductory SQL book. 
 
-**Rating 4/5**
+### Rating 4/5
 
 Sams Teach Yourself SQL in 10 Minutes
 

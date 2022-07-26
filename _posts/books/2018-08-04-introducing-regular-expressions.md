@@ -15,9 +15,9 @@ This book starts of teaching the basic concepts of regular expressions, you'll l
 
 I’ve been using regular expressions for almost as long as I’ve been using Linux (14+ years), and I’ve learned new topics that I wasn’t very much knowledgeable in like lookarounds. Also, I’ve been lucky to work only with ASCII characters for all the regular expressions that I’ve needed to write. This book does an excellent job describing how to work with Unicode characters using foreign language as examples. Finally, I learned how the the regex engine underneath the hood works when we pass in lazy, greedy, and possessive quantifier expressions to our regex patterns.
 
-**Rating: 3/5**
+### Rating: 3/5
 
-Introducing Regular Expressions
+Introducing Regular Expressions: Understanding Regular Expressions, Step-by-Step
 
 <a href="https://www.amazon.com/Introducing-Regular-Expressions-Step-Step/dp/1449392687" target="_blank"><img src="/assets/books/introducing-to-regular-expresssions.jpg"></a>
 

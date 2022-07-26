@@ -15,7 +15,7 @@ The examples described in this book are fairly outdated (book originally publish
 
 Thus said, the first ten chapters in book are really good. It covers the core regular expression concepts very well. I felt they were more comprehensible compared to <a href="https://www.rubysecurity.org/introducing-regular-expressions" target="_blank">Introducing Regular Expressions</a>.
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Beginning Regular Expressions
 

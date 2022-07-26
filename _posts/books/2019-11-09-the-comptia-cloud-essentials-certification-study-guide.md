@@ -2,7 +2,9 @@
 categories:
   - books
   - comptia
-tags: comptia
+tags:
+  - comptia
+  - cloud
 layout: post
 hidden: true
 title: The CompTIA Cloud Essentials Certification Study Guide
@@ -15,7 +17,7 @@ I took the exam (CLO-001)  a few days, and <a href="http://www.antoniobaltazar.c
 
 The only draw back of this book is not necessarily its fault. There were many instances where certain content was mentioned that wasn’t quite accurate if we don’t take Amazon Web Services into consideration. Which is kind of scary to see how AWS has shapped cloud computing from the time this book was published in 2012. 
 
-**Rating: 4/5**
+### Rating: 4/5
 
 The CompTIA Cloud Essentials Certification Study Guide
 

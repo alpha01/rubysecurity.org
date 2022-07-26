@@ -18,7 +18,7 @@ Just like <a href="https://www.rubysecurity.org/The-Definitive-Guide-to-Jenkins"
 
 I was shocked to learn, how new the Pipelines feature is. This book was published in 2015, and while I know it may take some significant amount of time to publish a book; so it maybe possible a bulk of this book may be written in 2014. This book does not describe examples of using Pipelines in a Jenkins build project. It's amazing that something so extremely useful, is relatively new.  Thus said, I would definitely recommend this book to those seeking to extend their Jenkins working knowledge. 
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Jenkins Continuous Integration Cookbook: Over 90 Recipes to produce great results from Jenkins using pro-level techniques, practices, and solutions
 

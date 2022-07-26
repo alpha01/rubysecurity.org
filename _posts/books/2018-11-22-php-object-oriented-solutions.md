@@ -19,7 +19,7 @@ To conclude, one of my biggest pet peeves are developers (mostly noobs) who see 
 
 This book is an ideal resource than can help you take that next step that would help you leap off from being a novice PHP developer.
 
-**Rating: 3/5**
+### Rating: 3/5
 
 PHP Object-Oriented Solutions
 

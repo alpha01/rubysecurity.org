@@ -14,7 +14,7 @@ It’s unbelievable for me to admit, but I really starting to dislike physical b
 
 Sadly, this book doesn’t have a modern recent edition. Being published in 2006, it definitely has outdated information. Thus said, I highly recommend this book to anyone new or wanting to learn SQL and MySQL, however I would highly suggest to also read the official documentation regarding each topic that it’s being described in the book. This is a beginner to mid level book, so you’ll definitely will not be seeing any advance MySQL features like replication, tuning, and performance (also mainly because this book covers MySQL 5.0) 
 
-**Rating 4/5**
+### Rating 4/5
 
 Visual Quickstart Guide: MySQL. Learn MySQL the Quick and Easy Way!
 

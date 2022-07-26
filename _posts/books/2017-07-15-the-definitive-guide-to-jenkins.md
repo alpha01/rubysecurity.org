@@ -17,7 +17,7 @@ Although this book was published over six years ago, most of the generic Jenkins
 
 Continuous Integration and Continuous Delivery is somewhat of a fairly advanced topic, thus so is this book. I think you need to have a basic to firm understanding of servers, application deployment, and a little programming knowledge to fully get the most out of this book. Thus said, we’re in July 2017 and if you’re one of those that still deploys application changes manually via FTP/SSH, then this is the book for you to start using a much better deployment strategy no matter of what application you’re working on.
 
-**Rating: 3/5**
+### Rating: 3/5
 
 The Definitive Guide to Jenkins: Continuous Integration for the Masses
 

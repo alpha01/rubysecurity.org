@@ -18,7 +18,7 @@ A ton of material is covered in this book and I feel it covers just enough for y
 
 To conclude, I was shocked to see that a massive publishing company like Pearson didn’t bothered hiring a single technical editor for this book. This book was plagued with errors! Some of the errors were simple typos to some rudimentary wrong technical information, that it would’ve been fairly easy for a technical editor to catch.  I felt this hurt the overall quality of this book. 
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Hands-on Guide to the Red Hat Exams: RHCSA and RHCE Cert Guide and Lab Manual 1st Edition
 

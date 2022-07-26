@@ -15,7 +15,7 @@ This book is divided into two sections, each pertaining the different certificat
 
 Obviously, this book is now completely outdated since as the time of this writing RHEL 8 is the current version. However, being the third technical book that I’ve read from this author (RHCE and Solaris 11), I can confidently recommend his books and hopefully well see an updated edition of this book soon.  
 
-**Rating: 4/5**
+### Rating: 4/5
 
 RHCSA/RHCE Red Hat Linux Certification Study Guide (Sixth Edition)
 

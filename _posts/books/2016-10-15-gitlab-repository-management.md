@@ -15,7 +15,7 @@ I always opt for first reading a book when jumping to a new piece of technology.
 
 If you’re already familiar with GitHub, then you should be able to quickly understand how GitLab works even if the web interfaces are completely different. So I really can’t recommend this book.
 
-**Rating: 2/5**
+### Rating: 2/5
 
 GitLab Repository Management: Delve into managing your projects with GitLab, while tailoring it to fit your environment
 

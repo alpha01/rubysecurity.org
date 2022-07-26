@@ -12,7 +12,7 @@ This primer book has practically all the content necessary in order to be fluent
 
 Published in 2006, so it obviously it has some information that is not quite up to date, but overall I think 90% of the content covered in this book is still perfectly valid. The only chapters that I didn’t bothered reading were the ones of using MySQL with different programming languages. This book is a perfect complementary MySQL and SQL reference book. The only drawback is the small outdated content, which hopefully in the near feature will have an updated version published. 
 
-**Rating 4/5**
+### Rating 4/5
 
 Sams Teach Yourself MySQL in 10 Minutes
 

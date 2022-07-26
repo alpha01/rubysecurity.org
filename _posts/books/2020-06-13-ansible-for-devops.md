@@ -2,7 +2,9 @@
 categories:
   - books
   - ansible
-tags: ansible
+tags:
+  - ansible
+  - devops
 layout: post
 hidden: true
 title: Ansible for DevOps
@@ -23,7 +25,7 @@ Ansible module development is not covered in this book. Quite frankly, at this p
 It’s quite fitting that the last chapter of this book deals with Kubernetes, as the authors next book <a href="https://leanpub.com/ansible-for-kubernetes" target="_blank">Ansible for Kubernetes</a> will solely deal with using Ansible for Kubernetes app deployments. Which I would definitely purchase and read when it’s fully completed.
 
 
-**Rating: 4/5**
+### Rating: 4/5
 
 Ansible for DevOps: Server and configuration management for humans
 

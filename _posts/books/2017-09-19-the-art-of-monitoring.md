@@ -15,7 +15,7 @@ The bread and butter of this book is the use of the event-processing and trackin
 
  This book covers just about every aspect of a modern application that you want to monitor, with the exception of the networking layer. From the ground up, the core audience of this book are system administrators and developers. I liked that this book designed the entire monitoring stack to easily scale depending on your application environment. As the author describe it, "your monitoring framework should be just as dynamic as your application."
 
-**Rating: 3/5**
+### Rating: 3/5
 
 The Art of Monitoring
 

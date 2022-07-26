@@ -16,7 +16,7 @@ About half of the content in this book is divided between HTML and CSS. The only
 
 I haven’t read many HTML or CSS books, but I’m confident to suggest and recommend that this is the best beginner HTML and CSS book that anyone wanting to become a web developer should read first. 
 
-**Rating: 5/5**
+### Rating: 5/5
 
 Head First HTML and CSS
 

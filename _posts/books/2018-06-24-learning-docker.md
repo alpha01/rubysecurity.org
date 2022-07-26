@@ -19,7 +19,7 @@ Their is a second version of this book, <a href="https://www.packtpub.com/networ
 
 This is an easy to follow, comprehensive Docker book, that I would definitely recommend to anyone wanting to learn more Docker in depth.
 
-**Rating: 4/5**
+### Rating: 4/5
 
 Learning Docker: Optimize the power of Docker to run applications quickly and easily
 

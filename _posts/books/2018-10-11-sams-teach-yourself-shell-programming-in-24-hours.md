@@ -17,7 +17,7 @@ In order to be fully proficient in shell programming, you need to be well acquai
 
 Most if not all of the examples described in this book were really easy to follow, however this book never really felt like a beginners book. I really liked how it progressed, it eventually became more of an advance book by the chapter.  
 
-**Rating: 4/5**
+### Rating: 4/5
 
 Sams Teach Yourself Shell Programming in 24 Hours
 

@@ -13,7 +13,7 @@ This short self-published book is a great resource to understand what DevOps is,
 
 The book is divided into two portions, the first delves into the methodologies and practices of what constitutes “DevOps”, the second is a very easy to understand introduction to Kubernetes and what problems it's trying to fix in the grand perspective of Development and Operations team workflows.  
 
-**Rating: 3/5**
+### Rating: 3/5
 
 DevOps with Kubernetes: Non-Programmer's Handbook
 

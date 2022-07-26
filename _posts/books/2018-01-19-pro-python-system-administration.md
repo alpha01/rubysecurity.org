@@ -15,7 +15,7 @@ I feel this book is mainly for those that need concrete examples on how to write
 
 This is certainly not a beginners book, and I'm glad to see the "Pro" in this Apress title actually holds to be true! 
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Pro Python System Administration
 

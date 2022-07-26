@@ -13,7 +13,7 @@ Although somewhat outdated (originally published in 2013), this book will defini
 
 Obviously, this book is focused using the Amazon Web Services as the cloud infrastructure platform, however the concepts can be applied with any cloud provider. This is a good thing, and a bad thing. A good thing is because you’re not limited to just AWS; the bad thing is that most of the architectural examples described in this book are no longer best practices since Amazon has built-in services that make most of the content described in the book be fault tolerant and highly available. This sounds like an oxymoron, and it is. Effectively, it is a good thing that this book is mostly outdated and deprecated, since it’s a lot more easier in 2018 to design an application in AWS that is reliable and resilience to problems.
 
-<strong>Rating: 3/5</strong>  
+### Rating: 3/5
 
 Resilience and Reliability on AWS: Engineering at Cloud Scale
 

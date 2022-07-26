@@ -13,7 +13,7 @@ Written by the creators of Helm itself, Learning Helm is literally a fantastic b
 
 Helm is a relatively simple Kubernetes package manager (that's why it's been heavily embraced by the community). The chapters in this book are short and straight to the point, just like the documentation. The examples provide the additional source needed to under the concept covered.  I've been doing a lot of custom Helm package development at work, and this book has been really beneficial to me; giving me pointers on implementing the best practices when writing, testing, and distributing Helm packages.
 
-**Rating: 4/5**
+### Rating: 4/5
 
 Learning Helm: Managing Apps on Kubernetes
 

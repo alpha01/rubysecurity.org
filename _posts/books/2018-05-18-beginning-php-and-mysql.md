@@ -24,7 +24,7 @@ The stuff that I didn't read was the content regarding topics I wasn't to intere
  
 For obvious reasons, a small portion of this book covers what are now considered  to be deprecated PHP 5. I enjoyed this book so much that I'm going to definitely purchase (e-book) the new PHP 7 <a href="https://www.apress.com/us/book/9781430260431"  target="_blank">Beginning PHP and MySQL 5th Edition</a>, which is set to be released later this year.
 
-**Rating: 4/5**
+### Rating: 4/5
 
 Beginning PHP and MySQL
 

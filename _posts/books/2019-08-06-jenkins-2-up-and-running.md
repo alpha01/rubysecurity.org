@@ -15,7 +15,7 @@ The focal point of this book are <a href="https://jenkins.io/doc/book/pipeline/"
 
 This is an advance book, it doesn’t have an installation chapter which most tech books love to include (and I tend to see them as pointless). Also, this book assumes you already know to implement a basic application delivery process. To get the most of off this book, it helps if you already have some sort of working deployment job set in place. This book will go into showcasing techniques on having a much more powerful and reliable integration and deployment setup.
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Jenkins 2: Up and Running. Evolve Your Deployment Pipeline for Next-Generation Automation
 

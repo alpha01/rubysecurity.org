@@ -2,7 +2,9 @@
 categories:
   - books
   - aws
-tags: aws
+tags:
+  - aws
+  - cloud
 layout: post
 hidden: true
 title: 'AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam 2nd Edition'
@@ -15,7 +17,7 @@ One of the reasons why I love buying and reading certification books even if I�
 
 So having taken the exam a few days ago, I can also reassure that the exam is not as difficult as this book! In fact, I was pleasantly surprised how easy the exam was, with a score of 909/1000 I <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-11-14&ci=AWS00485862" target="_blank">passed</a> the exam rather comfortably thanks to this book and other online training resources. My only regret was purchasing this book as an e-book. This made it extremely annoying having to toggle between chapter questions and their respective answers. Thus said, this book is really good, and I’m even considering repurchasing it in its physical form and reread it, to prepare for the harder <a href="https://aws.amazon.com/certification/certified-solutions-architect-professional/" target="_blank">Professional level exam</a>.
 
-**Rating: 4/5**
+### Rating: 4/5
 
 AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam 2nd Edition
 

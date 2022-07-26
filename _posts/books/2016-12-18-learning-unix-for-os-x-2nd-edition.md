@@ -45,8 +45,7 @@ This book was published on January 2016, and I feel the chapter on X11 is practi
 
 Overall, this is book is aimed for Mac users that want to be more comfortable using the command line. In my opinion this mostly means developers and designers that for some reason are not familiar with Unix and want take full advantage of the amazing power of Unix. This book does not cover shell programming. So the next logical step for anyone that read this book is to start learning shell programming to take their Unix knowledge to another level.
 
-
-**Rating: 3/5**
+### Rating: 3/5
 
 Learning Unix for OS X, 2nd Edition:  Going Deep With the Terminal and Shell
 

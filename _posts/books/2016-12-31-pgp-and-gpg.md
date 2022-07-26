@@ -21,7 +21,7 @@ As of the time of this writing we’re in late 2016, and perhaps user email priv
 
 If you care about email privacy, then this is an absolute must read. 
 
-**Rating: 4/5**
+### Rating: 4/5
 
 PGP & GPG: Email for the Practical Paranoid
 

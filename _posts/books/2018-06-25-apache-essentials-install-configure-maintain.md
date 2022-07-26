@@ -15,7 +15,7 @@ This book aimed to cover the major portions an Apache administrator needs to kno
 
 Apache is an extremely complex application, so this book is by no means whatsoever the only reference you need to be a good web administrator, but definitely a good reference to start. 
 
-**Rating: 3/5**
+### Rating: 3/5
 
 Apache Essentials: Install, Configure, Maintain
 

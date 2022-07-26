@@ -13,7 +13,7 @@ I've read <a href="https://www.rubysecurity.org/book_the-logstash-book"  target=
 
 Monitoring with Prometheus goes into into incredibly comprehensive detail on how to effectively use Prometheus. It does using simple and easy to follow examples, that would help understand each topic being described. While most of the examples are in an AWS environment, thus said I found it easily to translate it into my homelab environment.  
 
-**Rating: 4/5**
+### Rating: 4/5
 
 <a href="https://www.prometheusbook.com/" target="_blank"><img src="/assets/books/monitoring-with-prometheus.png"></a>
 

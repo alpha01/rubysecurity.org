@@ -17,7 +17,7 @@ Kubernetes is a fast-pace project, so as of the time of this writing, this book 
 
 This book is must read for anyone new to Kubernetes.
 
-**Rating 4/5**
+### Rating 4/5
 
 Kubernetes: Up and Running. Dive into the Future of Infrastructure
 
