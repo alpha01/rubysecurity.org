@@ -1,6 +1,6 @@
 ---
 categories:
-  - books
+  - programming
   - php
 tags:
   - php
