@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: nagios"
-tag: nagios
+title: "Tag: nginx"
+tag: nginx
 ---
