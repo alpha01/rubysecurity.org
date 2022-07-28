@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.blog-archive {
+	float: right;
+}
+
 .page-link {
     color: #fdfdfd;
 }
