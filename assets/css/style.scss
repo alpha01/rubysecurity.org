@@ -17,9 +17,13 @@
     border-radius: 3px;
 }
 
+.post-link:hover {
+    box-shadow: inset 0 0 0 white !important;
+    color: #b5e853;
+}
 
-.blog-post a:hover, a:visited, a:link, a:active {
-    text-decoration: none; 
+.blog-post a:visited, a:link, a:active {
+    text-decoration: none;
 }
 
 .blog-post {
