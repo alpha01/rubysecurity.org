@@ -8,7 +8,7 @@ title: Enabling Terminal Coloring in Mac OS X Snow Leopard
 created: 1334901052
 ---
 
-`~/.bash_profile `
+File `~/.bash_profile`.
 
 ```bash
 export CLICOLOR=1
