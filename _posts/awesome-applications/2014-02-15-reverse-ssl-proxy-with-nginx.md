@@ -24,7 +24,8 @@ First thing I needed to do is to map the sites local IPs to the KVM hosts file.
 ```
 
 Then configure `nginx.conf` (sample server blocks):
-<pre class="brush: plain">
+
+```nginx
 server {
     listen       443;
     server_name  www.rubysecurity.org;
