@@ -5,7 +5,7 @@ categories:
 tags:
   - perl
   - ubuntu
-  - lm_sensors
+  - monitoring
   - nagios
 layout: post
 title: Monitoring computer's temperature with lm_sensors
