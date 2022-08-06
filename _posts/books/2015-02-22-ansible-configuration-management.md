@@ -19,8 +19,8 @@ Ansible Configuration Management: Leverage the power of Ansible to quickly confi
 
 <a href="https://www.packtpub.com/networking-and-servers/ansible-configuration-management" target="_blank"><img src="/assets/books/ansible-configuration-management.jpg"></a>
 
-Chapter 1: Getting Started with Ansible
-Chapter 2: Simple Playbooks
-Chapter 3: Advance Playbooks
-Chapter 4: Larger Projects
-Chapter 5: Custom Modules
+* Chapter 1: Getting Started with Ansible
+* Chapter 2: Simple Playbooks
+* Chapter 3: Advance Playbooks
+* Chapter 4: Larger Projects
+* Chapter 5: Custom Modules
