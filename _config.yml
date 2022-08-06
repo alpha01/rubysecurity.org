@@ -6,7 +6,7 @@ theme: jekyll-theme-hacker
 twitter_username: alpha01
 github_username:  alpha01
 permalink: /:categories/:title
-google_analytics:
+google_analytics: UA-12912270-3
 url: ""
 baseurl: ""
 author: Alpha01
