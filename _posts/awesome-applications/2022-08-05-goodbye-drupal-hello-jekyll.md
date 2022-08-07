@@ -2,7 +2,9 @@
 categories:
   - awesome-applications
   - jekyll
-tags: jekyll
+tags:
+  - jekyll
+  - github
 layout: post
 title: Goodbye Drupal, Hello Jekyll
 ---
