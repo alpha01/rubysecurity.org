@@ -43,5 +43,4 @@ BOOTPROTO="static"
 IPADDR=192.168.100.218
 NETMASK=255.255.255.0
 ONBOOT="yes"
-</blockquote>
 ```

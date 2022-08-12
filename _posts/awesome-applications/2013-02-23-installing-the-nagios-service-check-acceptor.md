@@ -37,15 +37,16 @@ cd nsca-2.7.2
  NSCA group: nagios
 
 make all
-</blockquote>
+```
 
 Copy xinet.d sample config file and nsca.cfg file.
-<blockquote>
+
+```bash
 cp sample-config/nsca.cfg /usr/local/nagios/etc/
 cp sample-config/nsca.xinetd /etc/xinetd.d/nsca
 ```
 
- Update `/etc/xinetd.d/nsca.xinetd/nsca` (where 10.10.1.20 is the client IP that will be passively checked)
+Update `/etc/xinetd.d/nsca.xinetd/nsca` (where 10.10.1.20 is the client IP that will be passively checked)
 
 ```bash
 # default: on
@@ -129,10 +130,11 @@ In my case:
 ```bash
 [root@rubyninja ~]# su - nagios -c 'bash /usr/local/nagios/libexec/test_nsca'
 1 data packet(s) sent to host successfully.
-</blockquote>
+```
 
 Server successfully received the passive check.
-<pre class="brush: plain">
+
+```bash
 Feb 22 20:46:39 monitor nagios: Warning:  Passive check result was received for service 'test' on host 'rubyninja', but the service could not be found!
 ```
 

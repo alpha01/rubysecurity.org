@@ -65,12 +65,14 @@ binddn = cn=Directory Manager
 ```
 
 7). Afterwards, I'm able to verify my installation
+
 ```bash
 [root@ldap ldap]# dsctl localhost status
 Instance "localhost" is running
 ```
 
 8). Since, I kept the default settings when I created the  Create 389 DS instance, my server received the name "localhost". Hence why my **~/.dsrc** config also has the instance configured as "localhost". The corresponding systemd service and **dirsrv@localhost** and with the config files stored in /etc/dirsrv/slapd-localhost
+
 ```bash
 systemctl status dirsrv@localhost
 
@@ -89,6 +91,7 @@ openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 4096 -out rootCA.pem
 ```
 
 2). I created the following script to easily generate a certificate key-pair signed by my custom local CA.
+
 ```bash
 #!/bin/bash
 SAN="DNS:ldap.rubyninja.org,DNS:login.rubyninja.org"
@@ -140,26 +143,28 @@ Server-Cert                                                  u,u,u
 ```bash
 certutil -d /etc/dirsrv/slapd-localhost/ -n Server-Cert -f /etc/dirsrv/slapd-localhost/pwdfile.txt -D Server-Cert.crt
 certutil -d /etc/dirsrv/slapd-localhost/ -n Self-Signed-CA -f /etc/dirsrv/slapd-localhost/pwdfile.txt -D Self-Signed-CA.pem
-</blockquote>
-Adding new SSL certs:
-<blockquote>
+```
+
+5). Adding new SSL certs:
+
+```bash
 certutil -A -d /etc/dirsrv/slapd-localhost/ -n "ca_cert" -t "CT,," -i rootCA.pem -f /etc/dirsrv/slapd-localhost/pwdfile.txt
 certutil -A -d /etc/dirsrv/slapd-localhost/ -n "Server-Cert" -t ",," -i ssl/ssl.crt -f /etc/dirsrv/slapd-localhost/pwdfile.txt
 ```
 
-5). While the **certutil** utility manages signed public and CA certificates. Private SSL certificates are managed by the **pk12util** utility. However, before we use this tool, we must covert the X.509 private ssl certificate to a pkcs12 format.
+6). While the **certutil** utility manages signed public and CA certificates. Private SSL certificates are managed by the **pk12util** utility. However, before we use this tool, we must covert the X.509 private ssl certificate to a pkcs12 format.
 
 ```bash
 openssl pkcs12 -export -out certs/ssl.pfx -inkey certs/ssl.key -in certs/ssl.crt -certfile /root/ssl/rootCA.pem
 ```
 
-6). Afterwards, we can added it to our LDAP SSL database.
+7). Afterwards, we can added it to our LDAP SSL database.
 
 ```bash
 pk12util -d /etc/dirsrv/slapd-localhost/ -i certs/ssl.pfx
 ```
 
-7). Lastly, restart the service
+8). Lastly, restart the service
 
 ```bash
 systemctl restart dirsrv@localhost
