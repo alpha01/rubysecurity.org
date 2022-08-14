@@ -7,10 +7,10 @@ categories: header
 
 ## Book Reviews
 
+<!-- markdownlint-disable -->
 {% for post in site.categories.books %}
-
-* <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-
+</li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+<!-- markdownlint-enable -->
 
 <hr>
