@@ -1,12 +1,16 @@
 ---
 layout: default
-title: Books Reviews
+title: Books
 permalink: /books/
 categories: header
 ---
 
+## Book Reviews
+
 {% for post in site.categories.books %}
-<li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+
+* <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+
 {% endfor %}
 
 <hr>
