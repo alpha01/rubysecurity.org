@@ -19,7 +19,7 @@ Thanks to my new job, I've been working a lot with Varnish. Man, Varnish is one 
 
 So now I wanted to see how the results may differ using Varnish.
 
-### Configuration:
+### Configuration
 
 At a bare minimal, Varnish needs to be configured to remove cookies set by WordPress in order to make the content cacheable.
 
@@ -39,7 +39,7 @@ sub vcl_fetch {
 }
 ```
 
-With this configuration enabled, I ran the same identical ab tests that used to benchmark my server previously. 
+With this configuration enabled, I ran the same identical ab tests that used to benchmark my server previously.
 
 ```bash
 [root@rubyninja ~]# ab -n 1000 -c 5 http://www.rubyninja.org/index.php

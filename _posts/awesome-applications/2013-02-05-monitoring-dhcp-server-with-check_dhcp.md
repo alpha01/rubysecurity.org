@@ -15,16 +15,18 @@ Setting Nagios to monitor my DHCP server using the plugin check_dhcp was a littl
 
 First, the check_dhcp documentation indicates setting setuid on the `check_dhcp` binary in order to successfully query the dhcp server and receive a valid dhcp offer.
 
+### Error
+
 ```bash
 root@monitor libexec]# su - nagios -c '/usr/local/nagios/libexec/check_dhcp -s 192.168.1.2'
 Warning: This plugin must be either run as root or setuid root.
 To run as root, you can use a tool like sudo.
 To set the setuid permissions, use the command:
-	chmod u+s yourpluginfile
+  chmod u+s yourpluginfile
 Error: Could not bind socket to interface eth0.  Check your privileges...
 ```
 
-## Fix:
+### Fix
 
 ```bash
 chown root.root check_dhcp 

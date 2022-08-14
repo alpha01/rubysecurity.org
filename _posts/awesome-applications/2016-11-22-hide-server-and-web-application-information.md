@@ -33,12 +33,14 @@ ServerTokens Prod
 Finally, it's time to remove the `X-Generator` and `X-Drupal-Cache` specific Drupal headers. Using Apache via `mod_headers` module:
 
 {% raw %}
+
 ```bash
 <IfModule mod_headers.c>
      Header unset X-Generator
      Header unset X-Drupal-Cache
 </IfModule>
 ```
+
 {% endraw %}
 
 Using Nginx via the <a href="https://github.com/openresty/headers-more-nginx-module" target="_blank">headers more</a> module:
@@ -68,7 +70,6 @@ set resp.http.X-hacker = "Alpha01";
 
 Now, let's view my new http headers
 
-
 ```bash
 alpha03:~ tony$ curl -I https://www.rubysecurity.org
 HTTP/1.1 200 OK
@@ -91,10 +92,9 @@ Server: cloudflare-nginx
 CF-RAY: 3069ea499a6320ba-LAX
 ```
 
-References:
+### Resources
 
 * <a href="http://php.net/manual/en/ini.core.php#ini.expose-php" target="_blank">http://php.net/manual/en/ini.core.php#ini.expose-php</a>
 * <a href="http://httpd.apache.org/docs/2.4/mod/core.html#servertokens" target="_blank">http://httpd.apache.org/docs/2.4/mod/core.html#servertokens</a>
 * <a href="https://www.drupal.org/node/982034#comment-4719282" target="_blank">https://www.drupal.org/node/982034#comment-4719282</a>
 * <a href="http://nginx.org/en/docs/http/ngx_http_headers_module.html" target="_blank">http://nginx.org/en/docs/http/ngx_http_headers_module.html</a>
-

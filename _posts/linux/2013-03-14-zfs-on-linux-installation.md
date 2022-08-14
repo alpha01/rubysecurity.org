@@ -53,6 +53,6 @@ make install
 
 After the install completed both zfs and zfspool utilities were available and ready to use.
 
-Resources:
+### Resources
 
 * <a href="http://zfsonlinux.org/zfs-building-srpm.html" target="_blank">http://zfsonlinux.org/zfs-building-srpm.html</a>

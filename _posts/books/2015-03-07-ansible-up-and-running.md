@@ -15,7 +15,7 @@ I personally felt this book was slightly aimed for developers. Unlike the book <
 
 As for the cons, this book hardly mentions the use of roles in Ansible. Additionally it doesn't cover anything regarding creating custom modules. Only development topic covered was the creation of a custom dynamic inventory script using Python. Which I don't why the author decided to this, since in my opinion developing custom modules, lookup, var, and filter plugins is a much more important and useful topic for developers and system administrators to have a knowledge of. Also considering that Ansible doesn't have any official documentation regarding developing plugins, this alone would've been an excellent selling point for this book.
 
-Unlike <a href="https://www.packtpub.com/networking-and-servers/ansible-configuration-management" target="_blank">Ansible Configuration Management</a> which PacktPub is charging an arm and a leg for, this e-book can be freely downloaded right now. So get it while it last! 
+Unlike <a href="https://www.packtpub.com/networking-and-servers/ansible-configuration-management" target="_blank">Ansible Configuration Management</a> which PacktPub is charging an arm and a leg for, this e-book can be freely downloaded right now. So get it while it last!
 
 ### Rating: 3/5
 

@@ -31,5 +31,4 @@ It's no secret Ruby is my favorite language, however I'm not overly religious ab
 
 Thus said, when I first started my career, Bash and Perl the defacto scripting languages for a *nix admin to know, now in days it seems Python and Ruby are what companies prefer. Even now with the popularity of NodeJS, soon JavaScript will come into the front along with the other traditional major scripting languages.
 
-
 Happy hacking!

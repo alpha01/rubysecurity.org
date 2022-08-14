@@ -4,7 +4,7 @@
 # MD013/line-length - Line length
 MD013:
   # Number of characters
-  line_length: 1500
+  line_length: 1575
 
 # MD033/no-inline-html - Inline HTML
 MD033:
@@ -12,6 +12,7 @@ MD033:
   allowed_elements:
     - a
     - hr
+    - iframe
     - img
 
 # MD034/no-bare-urls - Bare URL used

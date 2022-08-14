@@ -10,7 +10,7 @@ title: Compiling Nginx dynamically loadable modules
 created: 1479457821
 ---
 
-I’ve compiled plenty of dynamic loadable modules for Apache, but never for Nginx up until now. I must say compiling modules for Apache is a much easier process compared to Nginx. 
+I’ve compiled plenty of dynamic loadable modules for Apache, but never for Nginx up until now. I must say compiling modules for Apache is a much easier process compared to Nginx.
 
 I use Nginx as a SSL reverse proxy/terminator. I wanted to be able to remove certain http headers at the Nginx level rather than on my Apache backend. The way to achieve this is using a module called <a href="https://www.nginx.com/resources/wiki/modules/headers_more/" target="_blank">headers more</a>, which is not part of core Nginx.
 
@@ -21,7 +21,7 @@ I’m using the nginx package installed via by the <a href="https://fedoraprojec
 ### Compilation Process
 
 1). Download the source code for the module, from <a href="https://github.com/openresty/headers-more-nginx-module/tags" target="_blank">https://github.com/openresty/headers-more-nginx-module/tags</a>
- 
+
 2). You need to find out the running version of Nginx:
 
 ```bash
@@ -32,7 +32,7 @@ nginx version: nginx/1.10.1
 3). Download and extract the source code for that version of Nginx:
 
 ```bash
-$ wget 'http://nginx.org/download/nginx-1.10.1.tar.gz'
+wget 'http://nginx.org/download/nginx-1.10.1.tar.gz'
 ```
 
 4). Compilation: On my first initial compilation, I mistakenly compiled the module using the following:
@@ -45,7 +45,7 @@ $ wget 'http://nginx.org/download/nginx-1.10.1.tar.gz'
 Even though the module compiled successfully, when trying to load the module, it gave me the following error:
 
 ```bash
-$ nginx -t
+nginx -t
 nginx: [emerg] module "/usr/lib64/nginx/modules/ngx_http_headers_more_filter_module.so" is not binary compatible in /etc/nginx/nginx.conf:9
 nginx: configuration file /etc/nginx/nginx.conf test failed
 ```
@@ -53,7 +53,7 @@ nginx: configuration file /etc/nginx/nginx.conf test failed
 It turns out the module has to be compiled using the same ./configure flags as my running version of Nginx, in addition to the `--add-dynamic-module=/opt/headers-more-nginx-module/headers-more-nginx-module-0.32` flag. Luckily, this can easily been obtained by running the following:
 
 ```bash
-$  nginx -V
+nginx -V
 nginx version: nginx/1.10.1
 built by gcc 4.4.7 20120313 (Red Hat 4.4.7-17) (GCC)
 built with OpenSSL 1.0.1e-fips 11 Feb 2013

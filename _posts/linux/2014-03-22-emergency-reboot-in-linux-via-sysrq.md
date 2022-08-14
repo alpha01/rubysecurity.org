@@ -15,5 +15,6 @@ When your Linux system has completely shit itself, and an emergency reboot needs
 [root@server1 ~]# echo "b" > /proc/sysrq-trigger
 ```
 
-Resources:
+### Resources
+
 * <a href="https://www.kernel.org/doc/Documentation/sysrq.txt" target="_blank">https://www.kernel.org/doc/Documentation/sysrq.txt</a>

@@ -14,6 +14,8 @@ So it's Saturday night, I don't have a date, nor am I drunk, so lets hack!
 
 I'm not a Metasploit ninja what so ever, and the basic MSF knowledge I have is playing with it via `msfconsole`. I've heard of `msfpayload` and its capabilities, but I've never gotten a chance to play around with it until now. Holyshit, `msfpayload` is freaking awesome! Msfpayload essentially gives you the ability to export payloads into a standalone binary executable or dll and yet even cooler, as well as the actual raw shellcode representation in either C, C#, Perl, Ruby, JS, VBA, and Python.
 
+### Usage
+
 To illustrate its greatness, its dead simple to create a standalone backdoor that you can deploy onto any system.  
 
 Syntax is straight forward:
@@ -102,6 +104,6 @@ I haven't done additional research on this quirk, it may just be some mistake on
 
 Obviously, malicious backdoors are a lot more sophisticated than this, however the fact that the Metasploit Framework lets us easily create them, as proof-of-concept this is truly amazing.
 
-Reference:
+### Resources
 
 * <a href="http://www.offensive-security.com/metasploit-unleashed/Msfpayload" target="_blank">www.offensive-security.com/metasploit-unleashed/Msfpayload</a>

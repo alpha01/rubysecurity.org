@@ -12,7 +12,7 @@ created: 1398616065
 
 By default, the CentOS Apache configuration does not allow index directory listings. So I enabled `Indexes Option` on the directory that I wanted allow this feature within my custom vhost. To my surprise after I made the Apache config update, directory listing was not working and I was still getting the default CentOS Apache welcome page.
 
-### Error:
+### Error
 
 ```bash
 [Sat Apr 26 14:42:11 2014] [error] [client 192.168.100.1] Directory index forbidden by Options directive: /www/mysecureshit/
@@ -33,6 +33,6 @@ It turns out the default `/etc/httpd/conf.d/welcome.conf` file option overrides 
 </LocationMatch>
 ```
 
-### Fix:
+### Fix
 
 Delete  `/etc/httpd/conf.d/welcome.conf`.

@@ -9,7 +9,7 @@ title: Sams Teach Yourself PHP in 10 Minutes
 created: 1365467379
 ---
 
-It took me roughly about seven years to finish reading this book from cover to cover. I originally bought this book because I wanted to learn PHP. As my very first PHP book, Sams Teach Yourself PHP in 10 Minutes by Chris Newman is a short straight to the point. Over all I found the examples pretty easy to follow and although at this point in time this book is now somewhat outdated (book uses functions that are now deprecated), I still think this book is a really good reference for anyone wanting to learn how to program in PHP. I would not however, make it the only source when learning PHP, as I personally saw this book as a more thoroughly comprehensive explanation of the php.net documentation. 
+It took me roughly about seven years to finish reading this book from cover to cover. I originally bought this book because I wanted to learn PHP. As my very first PHP book, Sams Teach Yourself PHP in 10 Minutes by Chris Newman is a short straight to the point. Over all I found the examples pretty easy to follow and although at this point in time this book is now somewhat outdated (book uses functions that are now deprecated), I still think this book is a really good reference for anyone wanting to learn how to program in PHP. I would not however, make it the only source when learning PHP, as I personally saw this book as a more thoroughly comprehensive explanation of the php.net documentation.
 
 ### Rating 3/5
 

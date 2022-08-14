@@ -12,6 +12,7 @@ So, a while back I demonstrated a way to <a href="https://www.rubysecurity.org/c
 Well, it turns out the <a href="https://www.monitoring-plugins.org/doc/man/check_http.html" target="_blank">check_http</a> Nagios plugin has built-in support to monitor SSL certificate expiration as well. This is accomplished using the `-C` / `--certificate` options.
 
 Example check on a local expired Let's Encrypt Certificate:
+
 ```bash
 [root@monitor plugins]# ./check_http -t 10 -H www.rubysecurity.org -I 192.168.1.61 -C 10
 SSL CRITICAL - Certificate 'www.rubysecurity.org' expired on 2018-07-25 18:39 -0700/PDT.

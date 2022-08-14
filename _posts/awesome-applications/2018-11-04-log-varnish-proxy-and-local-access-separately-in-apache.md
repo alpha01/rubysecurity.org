@@ -17,6 +17,7 @@ For the longest time, I've been logging all direct Apache traffic and traffic or
 For example, my Varnish server's local IP is 192.168.1.150, and **<a href="https://httpd.apache.org/docs/trunk/mod/mod_setenvif.html" target="_blank">SetEnvIf</a>** can use **_Remote_Addr_** (IP address of the client making the request), as part of it's set condition. So in my case, I can check if the originating request came from my Varnish server's "192.168.1.150" address, if so set the `is_proxied` environment variable. Afterwards I can use the `is_proxied` environment variable to tell Apache where to log that access request too.
 
 Inside my `VirtualHost` directive, the log configuration looks like this:
+
 ```bash
 SetEnvIf Remote_Addr "192.168.1.150" is_proxied=1
 

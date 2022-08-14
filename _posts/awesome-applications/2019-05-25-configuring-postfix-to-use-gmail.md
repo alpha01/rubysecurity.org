@@ -10,10 +10,9 @@ title: Configuring Postfix to use Gmail
 created: 1558771842
 ---
 
-Configuring Postfix to use Gmail as the outgoing SMTP relay endpoint is a relatively simple process. I’m my case, I’m not using an @gmail.com account. Rather, since all of my domains use G Suite, I’ve created a special dedicated email account that I’ll be using to send out email from. 
+Configuring Postfix to use Gmail as the outgoing SMTP relay endpoint is a relatively simple process. I’m my case, I’m not using an @gmail.com account. Rather, since all of my domains use G Suite, I’ve created a special dedicated email account that I’ll be using to send out email from.
 
 Before starting configuring Postfix, it is important that you enable <a href="https://support.google.com/accounts/answer/6010255" target="_blank">"Less secure app access"</a>  on the Gmail account that you will be configuring to send outgoing messages.
-
 
 I’m using CentOS 7.x as my mail server OS. These were the steps I used to configure Postfix.
 
@@ -71,7 +70,7 @@ smtp_extra_recipient_limit = 5
 
 In my case, I configured Postfix to only handle two concurrent relay connections, wait at least 10 seconds to send out the email and set the recipient limit to 5 (per queue message session).
 
-**NOTE:** As I mentioned, since I'm not using an @gmail.com, I had to add an <a href="https://support.google.com/a/answer/33786?hl=en" target="_blank">SPF DNS record</a> so that the outgoing emails pass all of Google’s spam tests. 
+**NOTE:** As I mentioned, since I'm not using an @gmail.com, I had to add an <a href="https://support.google.com/a/answer/33786?hl=en" target="_blank">SPF DNS record</a> so that the outgoing emails pass all of Google’s spam tests.
 
 DNS txt record:
 
@@ -85,7 +84,7 @@ Example received email header that was sent from the newly Postfix to Gmail smtp
 
 To conclude, it is import to remember that this Postfix configuration will overwrite whatever `From` source set by your mail user agent (as the above email header image demonstrates).
 
-Resources:
+### Resources
 
 * <a href="https://www.howtoforge.com/tutorial/configure-postfix-to-use-gmail-as-a-mail-relay" target="_blank">https://www.howtoforge.com/tutorial/configure-postfix-to-use-gmail-as-a-mail-relay</a>
 * <a href="https://wiki.deimos.fr/Postfix:_limit_outgoing_mail_throttling.html" target="_blank">https://wiki.deimos.fr/Postfix:_limit_outgoing_mail_throttling.html</a>

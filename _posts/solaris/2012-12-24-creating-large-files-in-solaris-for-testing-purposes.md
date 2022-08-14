@@ -10,7 +10,7 @@ title: Creating large files in Solaris for testing purposes
 created: 1356392845
 ---
 
-In the Linux world, I use the `dd` utility to create files that need to be a certain size. Even though it works perfectly fine, its kind of annoying figuring out the output file's size of the file. This is because the size is based on the `bs` (block size) value and the total number of block size `count` together. 
+In the Linux world, I use the `dd` utility to create files that need to be a certain size. Even though it works perfectly fine, its kind of annoying figuring out the output file's size of the file. This is because the size is based on the `bs` (block size) value and the total number of block size `count` together.
 
 For example, the following `dd` command creates a 300 mb file called 300mb-test-file. Each block size will be 1000 bytes, and I want of a total of 300,000 blocks.
 Formula: ( (1000 x 300000) / 1000000 )

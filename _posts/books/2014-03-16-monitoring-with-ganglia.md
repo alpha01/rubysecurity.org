@@ -15,10 +15,9 @@ This is essentially the handbook needed to start using Ganglia in your high perf
 
 Ganglia is a kick ass application. One thing that I really like about it that a standard install of gmond out of the box will provide the basic metrics that you would want to gather about your systems ie., memory, cpu/load, disk, and network. This book does an excellent job explaining how to extend gmond with modules written in Python. Personally I'm not big with Python, but given how easily it is to create custom modules, I can see myself using this feature if needed. Though optionally, this book also does an excellent job describing how to gather metrics using the gmetric command line utility, of which at this point you're not tied to any specific language if you want to gather custom metrics. Additionally this book included some examples using libaries that make use of gmetric functionally to gather metrics about your application. The primary reason why I bought this book was because I wanted to learn more in depth about Ganglia integration with Nagios, and this book does an excelent job describing how easily Ganglia and Nagios alert integration can be enabled making an absolute kick ass monitoring combo!
 
-
 One unique thing that this book included was a chapter dedicated to real case studies of Ganglia being used in large high performance environments, and the unique constraints that each environment had, what they did to solve or mitigate the problem. The only thing that perhaps this book could have excluded was the portion regarding extending gmond using C/C++, given that the core audience for this book are system engineers, and given the complexity of the subject, I feel extending gmond using C/C++ falls out of scope of the book.
 
-As far as I know this is the only Ganglia book available, and probably the only book you'll need to learn Ganglia. I definitely recommend this book if you're interested deploying Ganglia. 
+As far as I know this is the only Ganglia book available, and probably the only book you'll need to learn Ganglia. I definitely recommend this book if you're interested deploying Ganglia.
 
 ### Rating: 5/5
 

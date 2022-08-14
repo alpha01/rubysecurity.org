@@ -15,7 +15,7 @@ created: 1388983566
 linux-5n99:/home/tony/Downloads # rpm -ivh google-chrome-stable_current_x86_64.rpm
 warning: google-chrome-stable_current_x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 7fac5991: NOKEY
 error: Failed dependencies:
-	lsb >= 4.0 is needed by google-chrome-stable-31.0.1650.63-1.x86_64
+  lsb >= 4.0 is needed by google-chrome-stable-31.0.1650.63-1.x86_64
 ```
 
 ### Fix

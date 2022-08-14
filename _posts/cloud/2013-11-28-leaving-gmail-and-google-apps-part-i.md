@@ -13,7 +13,7 @@ title: 'Leaving Gmail and Google Apps: Part I'
 created: 1385615066
 ---
 
-Since I'm paying for essentially unmanaged dedicated hosting so I can run my mail server. I opted to consolidate my personal web applications to the same physical box. This is why I created a KVM guest that would solely be used for my web traffic. One of the main challenges I'm faced is the fact that I only have one public IP address. This means that all of my KVM guests have been configured using the default NAT networking. 
+Since I'm paying for essentially unmanaged dedicated hosting so I can run my mail server. I opted to consolidate my personal web applications to the same physical box. This is why I created a KVM guest that would solely be used for my web traffic. One of the main challenges I'm faced is the fact that I only have one public IP address. This means that all of my KVM guests have been configured using the default NAT networking.
 
 For all http traffic I'm using Varnish as the proxy and caching server and for https traffic I'm using Nginx.
 <img src="/assets/cloud/http_architecture.png" alt="http_architecture"  title="HTTP and HTTPS Architecture">

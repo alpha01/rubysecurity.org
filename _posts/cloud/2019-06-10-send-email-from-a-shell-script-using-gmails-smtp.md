@@ -47,6 +47,6 @@ set from="mail@rubyninja.org"
 set nss-config-dir=/etc/pki/nssdb
 ```
 
-References:
+### Resources
 
 * <a href="https://www.systutorials.com/1411/sending-email-from-mailx-command-in-linux-using-gmails-smtp/" target="_blank">https://www.systutorials.com/1411/sending-email-from-mailx-command-in-linux-using-gmails-smtp/</a>

@@ -23,7 +23,6 @@ After about 30 minutes of trail and error (and wasn't able to find any useful do
 rm  /etc/netplan/*.yml
 ```
 
-
 2). Install ifupdown utility
 
 ```bash

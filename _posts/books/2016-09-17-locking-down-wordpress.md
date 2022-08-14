@@ -19,9 +19,9 @@ All of which are uniquely answered by all three WordPress professionals based on
 
 I have a solid understanding of locking down a WordPress application. Even, as seasoned as user, administrator, and up to a certain point a; a developer. I actually learned something really important on securing WordPress that I completely oversee. That is removing world/all readable access to wp-config.php, this is something that I completely never thought of, yet without this change anyone can easily grab your database credentials. Another good tip I got by reading this free e-book was on dealing with hosting providers.
 
-WordPress is like any other web application, yet idiots like to scrutinize it in a negative way. Almost as like if their shit doesn’t smell, but I digress.  Like any other web application, it’s just a matter of keeping up with updates, restricting access, and having common sense of what third party code to integrate onto your application; will help you keep a your website secure and running without hiccups. 
+WordPress is like any other web application, yet idiots like to scrutinize it in a negative way. Almost as like if their shit doesn’t smell, but I digress.  Like any other web application, it’s just a matter of keeping up with updates, restricting access, and having common sense of what third party code to integrate onto your application; will help you keep a your website secure and running without hiccups.
 
-Although much of the content is mentioned on the official WordPress security guides (<a href="https://codex.wordpress.org/Hardening_WordPress" target="_blank">https://codex.wordpress.org/Hardening_WordPress</a> and <a href="https://codex.wordpress.org/FAQ_My_site_was_hacked" target="_blank">https://codex.wordpress.org/FAQ_My_site_was_hacked</a>) I'd highly recommend anyone using WordPress to read this free e-book. 
+Although much of the content is mentioned on the official WordPress security guides (<a href="https://codex.wordpress.org/Hardening_WordPress" target="_blank">https://codex.wordpress.org/Hardening_WordPress</a> and <a href="https://codex.wordpress.org/FAQ_My_site_was_hacked" target="_blank">https://codex.wordpress.org/FAQ_My_site_was_hacked</a>) I'd highly recommend anyone using WordPress to read this free e-book.
 
 ### Rating: 3/5
 

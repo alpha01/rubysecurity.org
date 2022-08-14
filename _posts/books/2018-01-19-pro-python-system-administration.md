@@ -13,7 +13,7 @@ Pro Python System Administration is an advanced technical book. The book already
 
 I feel this book is mainly for those that need concrete examples on how to write complex Python programs. For example, I have no use of any of the Python tools described in this book (maybe the perhaps the Nagios website availability script), however this book will definitely help if I ever would need to architect a complex sysadmin related tool.
 
-This is certainly not a beginners book, and I'm glad to see the "Pro" in this Apress title actually holds to be true! 
+This is certainly not a beginners book, and I'm glad to see the "Pro" in this Apress title actually holds to be true!
 
 ### Rating: 3/5
 

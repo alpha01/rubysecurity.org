@@ -41,9 +41,9 @@ zone "1.168.192.in-addr.arpa" IN {
 After reloading Bind, you verify reverse DNS works by using the utility of your choice; ie dig, host, nslookup, etc..
 
 ```bash
-alpha03:~ tony$ nslookup 192.168.1.14
-Server:		192.168.1.10
-Address:	192.168.1.10#53
+nslookup 192.168.1.14
+Server:   192.168.1.10
+Address:  192.168.1.10#53
 
-14.1.168.192.in-addr.arpa	name = email.rubyninja.org.
+14.1.168.192.in-addr.arpa name = email.rubyninja.org.
 ```

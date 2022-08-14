@@ -9,7 +9,7 @@ title: Enabling SMART on a hard drive
 created: 1384110520
 ---
 
-### Error:
+### Error
 
 ```bash
 [root@backup ~]# smartctl -H /dev/sdb
@@ -19,7 +19,7 @@ Copyright (C) 2002-12 by Bruce Allen, http://smartmontools.sourceforge.net
 SMART Disabled. Use option -s with argument 'on' to enable it.
 ```
 
-### Fix:
+### Fix
 
 ```bash
 [root@backup ~]# smartctl -s on /dev/sdb

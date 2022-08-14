@@ -63,6 +63,7 @@ all_dns_records:
 Deployment Ansible playbook:
 
 {% raw %}
+
 ```yaml
 ---
 - hosts: ns1.rubyninja.org
@@ -137,6 +138,7 @@ Deployment Ansible playbook:
       command: rndc -c /var/named/chroot/etc/rndc.conf sync -clean
       delegate_to: ns1.rubyninja.org
 ```
+
 {% endraw %}
 
 My DNS deployment a playbook breakdown:

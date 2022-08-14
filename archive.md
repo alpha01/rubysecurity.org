@@ -5,8 +5,4 @@ permalink: /archive/
 categories: header
 ---
 
-# Archive
-
 {% include archive.html %}
-
-

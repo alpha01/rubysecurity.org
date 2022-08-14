@@ -11,9 +11,9 @@ created: 1557892619
 
 The Sams Teach Yourself SQL in 10 Minutes series is the best selling SQL book series, and after reading this book (although older version since I read the second edition), I can see why that is the case. This is a really good SQL good. It is SQL agnostic, though it does mention the difference between major RDMS, and also provides the different implementations using SQL Server, Oracle, and on a few occasions even MySQL.
 
-This book goes into far more detail than <a href="https://www.rubysecurity.org/Sams-Teach-Yourself-MySQL-in-10-Minutes" target="_blank">MySQL in 10 minutes</a>. I read both books jointly, and I think this is the best approach for anyone new to SQL and if you’re learning via MySQL. Unlike <a href="https://www.rubysecurity.org/Sams-Teach-Yourself-MySQL-in-10-Minutes" target="_blank">MySQL in 10 minutes</a>, this book does have consequently updated editions published. 
+This book goes into far more detail than <a href="https://www.rubysecurity.org/Sams-Teach-Yourself-MySQL-in-10-Minutes" target="_blank">MySQL in 10 minutes</a>. I read both books jointly, and I think this is the best approach for anyone new to SQL and if you’re learning via MySQL. Unlike <a href="https://www.rubysecurity.org/Sams-Teach-Yourself-MySQL-in-10-Minutes" target="_blank">MySQL in 10 minutes</a>, this book does have consequently updated editions published.
 
-This book was extremely easy to follow and very well written, and in my opinion it is perhaps the best introductory SQL book. 
+This book was extremely easy to follow and very well written, and in my opinion it is perhaps the best introductory SQL book.
 
 ### Rating 4/5
 

@@ -12,7 +12,7 @@ created: 1392439824
 
 Nginx is turning to be an awesome SSL reverse proxy server, although I can't say I've really put it to real heavy duty use or how it well scale since my sites have relatively slow traffic. Thus said, a reverse SSL proxy using Nginx is working flawless in my environment!
 
-Since all of my sites are being served within a KVM guest using NAT networking, all SSL traffic has to go through the KVM host of which Nginx is being used to proxy the requests to the guest KVM. Nginx is awesome since it supports specifying multiple server blocks (think of virtual hosts in Apache) set to listen on port 443 within the main http block. With this configuration available, it is possible to specify different reverse proxy end points.  
+Since all of my sites are being served within a KVM guest using NAT networking, all SSL traffic has to go through the KVM host of which Nginx is being used to proxy the requests to the guest KVM. Nginx is awesome since it supports specifying multiple server blocks (think of virtual hosts in Apache) set to listen on port 443 within the main http block. With this configuration available, it is possible to specify different reverse proxy end points.
 
 On my server I have enabled SSL for www.rubysecurity.org and www.rubyninja.org.
 
@@ -35,7 +35,7 @@ server {
 
     location / {
         proxy_pass   https://www.rubysecurity.org;
-	    
+
         ### Set headers ####
         proxy_set_header        Accept-Encoding   "";
         proxy_set_header        Host            $host;
@@ -79,4 +79,4 @@ server {
 }
 ```
 
-One interesting thing in Nginx with SSL is that it doesn't have a dedicated Certificate Authority (CA) ssl certificate directive, unlike `SSLCACertificateFile` in Apache. Instead the CA certificate has to be bundled with the public ssl certificate, which it's really not a big deal given that multiple CA's tend to bundle their intermediate CA certificates similarly.   
+One interesting thing in Nginx with SSL is that it doesn't have a dedicated Certificate Authority (CA) ssl certificate directive, unlike `SSLCACertificateFile` in Apache. Instead the CA certificate has to be bundled with the public ssl certificate, which it's really not a big deal given that multiple CA's tend to bundle their intermediate CA certificates similarly.

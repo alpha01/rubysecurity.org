@@ -16,6 +16,7 @@ This site is powered by Drupal. Drupal and WordPress for that matter, are well t
 I have Nginx acting as an SSL proxy for www.rubysecurity.org, which is hosted on an Apache back-end. So I have a few configs that I've enabled to lock down access to my Drupal site. The configs are made at the Nginx proxy level, so they can never reach Apache.
 
 Firstly, I have all of Drupal's /admin locked out from outside access:
+
 ```nginx
 location = /admin {
     allow MY-HOME-IP-ADDRESS;
