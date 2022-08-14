@@ -9,7 +9,7 @@ created: 1325915587
 
 A snob Linux elitist would say, "You can't call yourself a serious GNU/Linux user if you have never successfully compiled the Linux kernel at least once in your life."
 
-The following were the steps I made to compile the Linux kernel over 4 years ago (I just happened to find my reference text file that I saved, buried within my home directory). 
+The following were the steps I made to compile the Linux kernel over 4 years ago (I just happened to find my reference text file that I saved, buried within my home directory).
 
 1). Download kernel source code from <a href="https://www.kernel.org" target="_blank">https://www.kernel.org</a>.
 
@@ -47,7 +47,6 @@ make modules_install
 ```bash
 make install
 ```
-
 
 ### Reference one liner
 

@@ -10,7 +10,7 @@ created: 1429995367
 
 `system-config-kickstart` fails to start after the initial install.
 
-### Error:
+### Error
 
 ```bash
 tony@alpha05:~$ system-config-kickstart 
@@ -26,7 +26,7 @@ Traceback (most recent call last):
 RuntimeError: Could not read video driver database
 ```
 
-### Fix:
+### Fix
 
 Downgrade the hwdata package.
 
@@ -39,5 +39,8 @@ apt-get install system-config-kickstart
 ```
 
 This is a known bug in Ubuntu that is yet to be fixed...
- * <a href="https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1260107" target="_blank">https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1260107</a>
+
+### Resources
+
+* <a href="https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1260107" target="_blank">https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1260107</a>
 * <a href="https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1236315" target="_blank">https://bugs.launchpad.net/ubuntu/+source/system-config-kickstart/+bug/1236315</a>

@@ -21,7 +21,7 @@ I based made my benchmarks using a total of 1000 requests with 5 concurrent requ
 ab -n 1000 -c 5 http://www.rubyninja.org/index.php
 ```
 
-### Results:
+### Results
 
 Using just the `mod_pagespeed` Apache module enabled.
 
@@ -46,7 +46,6 @@ Waiting:      327  771  46.4    772    1040
 Total:        328  772  46.4    772    1040
 ```
 
-
 Using `mod_pagespeed` and `APC` enabled.
 
 ```bash
@@ -69,7 +68,6 @@ Processing:    88  199  28.4    202     459
 Waiting:       88  199  28.4    201     459
 Total:         88  205 137.2    202    3208
 ```
-
 
 Using the WordPress W3 Total Cache plugin configured with Page, Database, Object, and Browser cache enabled the APC caching method and `mod_pagespeed`.
 

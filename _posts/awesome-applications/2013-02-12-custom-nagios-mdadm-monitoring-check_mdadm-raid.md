@@ -11,7 +11,7 @@ title: 'Custom Nagios mdadm monitoring: check_mdadm-raid'
 created: 1360635917
 ---
 
-Simple Nagios mdadm monitoring plugin. 
+Simple Nagios mdadm monitoring plugin.
 
 ```ruby
 #!/usr/bin/env ruby

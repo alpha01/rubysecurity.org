@@ -12,7 +12,7 @@ created: 1442038975
 
 I installed graphite-web via the EPEL repo, and I was getting an 500 error when accessing the Graphite web interface.
 
-# Error
+### Error
 
 ```bash
 [Sat Sep 12 00:56:27 2015] [error] [client 192.168.1.21] mod_wsgi (pid=17318): Exception occurred processing WSGI script '/usr/share/graphite/graphite-web.wsgi'.

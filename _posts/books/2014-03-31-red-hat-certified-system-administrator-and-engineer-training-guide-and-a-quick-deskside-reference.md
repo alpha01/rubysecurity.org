@@ -16,7 +16,6 @@ This is the first book that I've read as part of my quest to become an RHCE. Thi
 I know I will definitely get back to it again to study the material or as a refresher of the content and practice using the step-by-step labs.
 
 The book is divided into two sections dedicated for the RHCSA and RHCE certification objectives respectively. Overall I found the author's writing easy and coherent to understand. The only downside to the book is that it's poorly edited. The author doesn't mentioned this so I suspect this book didn't had a dedicated technical reviewer. This is really visible given that the book has numerous typos and mistakes.
- 
 
 Although this book is aimed to be a quick reference for the RHSCA/RHCE exams, I would definitely recommend it anyone interested in learning RHEL/Cent OS more in depth. Thus said, make sure to checkout the book's errata if you're planning on reading it!
 
@@ -41,7 +40,7 @@ Red Hat Certified System Administrator & Engineer: Training Guide and a Quick De
 * Chapter 13: Networking, Network Interfaces & DNS, DHCP and LDAP Clients
 * Chapter 14: Shell Scripting, Building an RPM Package, & iSCSI
 * Chapter 15: Advance Firewall, TCP Wrappers, Usage Reporting & Remote Logging
-* Chapter 16: Routing, Kerberous & DNS Server 
+* Chapter 16: Routing, Kerberous & DNS Server
 * Chapter 17: Internet Services, Kernel Parameters & NTP
 * Chapter 18: Electronic Mail
 * Chapter 19: Network File System

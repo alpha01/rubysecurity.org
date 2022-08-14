@@ -18,9 +18,9 @@ I have a quadroboot OS installation environment on my Dell XPS laptop.
 * Fedora
 * Windows 7
 
-I decided to upgrade my Ubuntu installing to the latest 15.04. As soon the upgrade completed and rebooted, I noticed the GRUB menu was no longer displaying my Fedora 21 environment. The problem was because I had installed Fedora under an LVM partition, while the others weren't. 
+I decided to upgrade my Ubuntu installing to the latest 15.04. As soon the upgrade completed and rebooted, I noticed the GRUB menu was no longer displaying my Fedora 21 environment. The problem was because I had installed Fedora under an LVM partition, while the others weren't.
 
-Restoring boot access to Fedora was fairly simple. 
+Restoring boot access to Fedora was fairly simple.
 
 First, I had install `lvm2` package in Ubuntu so it's able to view and configure the LVM
 
@@ -48,4 +48,3 @@ So the last step was to generate a new grub config.
 ```bash
 tony@alpha05:~$ sudo grub-mkconfig > /boot/grub/grub.cfg 
 ```
-

@@ -66,7 +66,7 @@ Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
 
-### Usage: 
+### Usage
 
 At this point a regular user should be able to checkout the project1 repo from the Git server.
 
@@ -78,7 +78,7 @@ tony@apha05:~/testing_shit/git_test$ git remote add origin tony@svn:/home/git/pr
 
 **Note:** Interestingly enough, an initial first commit has to be made onto the repo in order for any regular user to be able to push the repo, ie master branch. I received the following error when trying do so.
 
-### Error:
+### Error
 
 ```bash
 tony@apha05:~/testing_shit/git_test$ git push origin master
@@ -87,7 +87,7 @@ error: src refspec master does not match any.
 error: failed to push some refs to 'tony@svn:/home/git/project1'
 ```
 
-### Fix:
+### Fix
 
 ```bash
 tony@apha05:~/testing_shit/git_test$ git commit -m 'Initial'

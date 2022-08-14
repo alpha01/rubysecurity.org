@@ -4,7 +4,7 @@
 # MD013/line-length - Line length
 MD013:
   # Number of characters
-  line_length: 850
+  line_length: 1500
 
 # MD033/no-inline-html - Inline HTML
 MD033:

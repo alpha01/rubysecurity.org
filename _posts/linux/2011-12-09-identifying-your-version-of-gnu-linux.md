@@ -10,6 +10,7 @@ title: Identifying your version of GNU/Linux
 created: 1323415250
 ---
 
+<!-- markdownlint-disable -->
 ```bash
 tony@debian01:~$ lsb_release -a
 No LSB modules are available.
@@ -18,3 +19,4 @@ Description:	Debian GNU/Linux 6.0.3 (squeeze)
 Release:	6.0.3
 Codename:	squeeze
 ```
+<!-- markdownlint-enable -->

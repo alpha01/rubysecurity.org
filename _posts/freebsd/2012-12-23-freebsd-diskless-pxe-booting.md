@@ -47,10 +47,11 @@ root_rw_mount="NO"
 5). NFS configuration:
 
 ```bash
-/srv/tftp/freebsd/amd64		192.168.1.1/24(ro,sync,no_root_squash,no_subtree_check)
+/srv/tftp/freebsd/amd64    192.168.1.1/24(ro,sync,no_root_squash,no_subtree_check)
 ```
 
 6). dhcpd configuration (of course, IP may differ depending on your environment):
+
 * `192.168.1.128` will be the IP that wil be assigned to the new FreeBSD system.
 * `192.168.1.2` is the IP of the TFTP/NFS server where the installation files are stored in.
 
@@ -67,8 +68,7 @@ host freebsdboot {
 
 <img src="/assets/freebsd/FreeBSD_diskless_PXE.png" alt="FreeBSD Diskless PXE" title="FreeBSD Diskless PXE image" />
 
-
-References:
+## Resources
 
 * <a href="http://forums.freebsd.org/showthread.php?t=30069" target="_blank">http://forums.freebsd.org/showthread.php?t=30069</a>
 * <a href="http://lists.freebsd.org/pipermail/freebsd-questions/2012-March/238969.html" target="_blank">http://lists.freebsd.org/pipermail/freebsd-questions/2012-March/238969.html</a>

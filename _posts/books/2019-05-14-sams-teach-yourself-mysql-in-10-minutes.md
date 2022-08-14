@@ -10,7 +10,7 @@ created: 1557809274
 ---
 This primer book has practically all the content necessary in order to be fluent in MySQL and SQL in general at a medium to advance level knowledge. The examples are short and easy to understand. (After all the author’s goal was for each chapter to take 10 minutes to read). The chapters are perfectly structured, as you progress throughout the book, the chapters beautifully build up on top of content that you’ve already read (and hopefully learned).  This book will teach you how to use MySQL, it doesn’t go into administration or any advance database optimization features of this fantastic relational database management system.
 
-Published in 2006, so it obviously it has some information that is not quite up to date, but overall I think 90% of the content covered in this book is still perfectly valid. The only chapters that I didn’t bothered reading were the ones of using MySQL with different programming languages. This book is a perfect complementary MySQL and SQL reference book. The only drawback is the small outdated content, which hopefully in the near feature will have an updated version published. 
+Published in 2006, so it obviously it has some information that is not quite up to date, but overall I think 90% of the content covered in this book is still perfectly valid. The only chapters that I didn’t bothered reading were the ones of using MySQL with different programming languages. This book is a perfect complementary MySQL and SQL reference book. The only drawback is the small outdated content, which hopefully in the near feature will have an updated version published.
 
 ### Rating 4/5
 

@@ -7,9 +7,9 @@ layout: post
 title: User creations in Solaris 11
 created: 1365824789
 ---
-To my surprise Solaris 11 does not create new user's home directory by default. 
+To my surprise Solaris 11 does not create new user's home directory by default.
 
-### Errors:
+### Errors
 
 ```bash
 root@solaris:~# su - testuser
@@ -20,7 +20,7 @@ testuser:x:106:10::/export/home/testuser:/usr/bin/bash
         Login directory not found
 ```
 
-### Fix:
+### Fix
 
 ```bash
 root@solaris:~# useradd -m testuser

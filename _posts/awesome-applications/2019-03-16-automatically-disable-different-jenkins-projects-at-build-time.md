@@ -15,7 +15,8 @@ My current configuration consists of two different basic Freestyle projects Jenk
 
 Using the Groovy <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin" target="_blank">Postbuild Plugin</a>, will give you the ability to modify Jenkins itself. In my case, I want to disable the productions Freestyle project whenever my staging Freestyle project.
 
-On this example my production project build/job is called <strong>rubysecurity.org</strong>. 
+On this example my production project build/job is called `rubysecurity.org`.
+
 ```java
 import jenkins.*
 import jenkins.model.*
@@ -43,6 +44,6 @@ Example error:
 
 <img src="/assets/awesome-applications/jenkins-error.png" alt="Jenkins error">
 
-References:
+### Resources
 
 * <a href="https://stackoverflow.com/questions/8661349/disable-jenkins-job-from-another-job" target="_blank">https://stackoverflow.com/questions/8661349/disable-jenkins-job-from-another-job</a>
