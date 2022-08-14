@@ -28,7 +28,7 @@ Create `nagios` user and give it a password.
 passwd nagios
 ```
 
-Create a new `nagcmd` group for allowing external commands to be submitted through the web interface. Add both the `nagios` user and the `apache` user to the group. 
+Create a new `nagcmd` group for allowing external commands to be submitted through the web interface. Add both the `nagios` user and the `apache` user to the group.
 
 ```bash
 /usr/sbin/groupadd nagcmd
@@ -37,7 +37,7 @@ Create a new `nagcmd` group for allowing external commands to be submitted throu
 ```
 
 Download and extract the latest stable Nagios Core from http://www.nagios.org/download/core/
-Run the Nagios configure script, passing the name of the group you created earlier: 
+Run the Nagios configure script, passing the name of the group you created earlier:
 
 ```bash
 ./configure --with-command-group=nagcmd
@@ -55,7 +55,7 @@ Install Nagios
 make install
 ```
 
-Update the email address associated with the `nagiosadmin` contact definition in `/usr/local/nagios/etc/objects/contacts.cfg`. Install the Nagios web config file in the Apache `conf.d` directory. 
+Update the email address associated with the `nagiosadmin` contact definition in `/usr/local/nagios/etc/objects/contacts.cfg`. Install the Nagios web config file in the Apache `conf.d` directory.
 
 ```bash
 make install-webconf
@@ -73,13 +73,13 @@ Create htaccess user to access the Nagios web interface.
 htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 ```
 
-Restart Apache to make the new settings take effect. 
+Restart Apache to make the new settings take effect.
 
 ```bash
 service httpd restart
 ```
 
-Add Nagios to the list of system services and have it automatically start when the system boots. 
+Add Nagios to the list of system services and have it automatically start when the system boots.
 
 ```bash
 chkconfig --add nagios
@@ -102,13 +102,13 @@ chown nagios.nagios /usr/local/nagios
 chown -R nagios.nagios /usr/local/nagios/libexec
 ```
 
-Verify the sample Nagios configuration files. 
+Verify the sample Nagios configuration files.
 
 ```bash
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 ```
 
-If there are no errors, start Nagios. 
+If there are no errors, start Nagios.
 
 ```bash
 service nagios start
@@ -123,5 +123,6 @@ alias ncheck='/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg'
 alias nrestart='service nagios restart'
 ```
 
-Reference:
+### Reference
+
 * <a href="http://nagios.sourceforge.net/docs/3_0/quickstart-fedora.html" target="_blank">http://nagios.sourceforge.net/docs/3_0/quickstart-fedora.html</a>

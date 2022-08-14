@@ -54,7 +54,7 @@ Edit the `/etc/xinetd.d/nrpe` file and add the IP address of the monitoring serv
 only_from = 127.0.0.1 <nagios_ip_address>
 ```
 
-Add the following entry for the NRPE daemon to the `/etc/services` file. 
+Add the following entry for the NRPE daemon to the `/etc/services` file.
 
 ```bash
 nrpe 5666/tcp # NRPE
@@ -73,7 +73,7 @@ mkdir /usr/local/nagios/etc/
 cp sample-config/nrpe.cfg /usr/local/nagios/etc/nrpe.cfg
 ```
 
-Copy over `check_nrpe` binary to `/usr/local/nagios/libexec` 
+Copy over `check_nrpe` binary to `/usr/local/nagios/libexec`
 
 ```bash
 cp src/check_nrpe /usr/local/nagios/libexec/
@@ -101,6 +101,7 @@ Issue the following command to test communication on the Nagios monitoring serve
 ```
 
 You should get a string back that tells you what version of NRPE is installed on the remote host, like this:
+
 ```bash
 NRPE v2.13
 ```

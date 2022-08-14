@@ -8,11 +8,11 @@ title: 'Visual Quickstart Guide: MySQL'
 created: 1543804802
 ---
 
-Visual Quickstart Guide: MySQL is yet another outdated physical book that I’ve decided to finish reading so I can toss it off my book shelf.  This is a fantastic MySQL and general SQL book. It starts you off with basic MySQL and SQL usage,  and database design theory, to more advance SQL usage and built-in MySQL functionality, as well as using MySQL with PHP, Perl, and Java. This book comprehensively covers associated mysql* tools. 
+Visual Quickstart Guide: MySQL is yet another outdated physical book that I’ve decided to finish reading so I can toss it off my book shelf.  This is a fantastic MySQL and general SQL book. It starts you off with basic MySQL and SQL usage,  and database design theory, to more advance SQL usage and built-in MySQL functionality, as well as using MySQL with PHP, Perl, and Java. This book comprehensively covers associated mysql* tools.
 
 It’s unbelievable for me to admit, but I really starting to dislike physical books. However, I really love how this book’s text is laid out. The layout is of two vertical columns, where text is presented and usually only side a visual image of what its being described. (I enjoy seeing the walls of text in my epic high fantasy books, and not in my technical books!)
 
-Sadly, this book doesn’t have a modern recent edition. Being published in 2006, it definitely has outdated information. Thus said, I highly recommend this book to anyone new or wanting to learn SQL and MySQL, however I would highly suggest to also read the official documentation regarding each topic that it’s being described in the book. This is a beginner to mid level book, so you’ll definitely will not be seeing any advance MySQL features like replication, tuning, and performance (also mainly because this book covers MySQL 5.0) 
+Sadly, this book doesn’t have a modern recent edition. Being published in 2006, it definitely has outdated information. Thus said, I highly recommend this book to anyone new or wanting to learn SQL and MySQL, however I would highly suggest to also read the official documentation regarding each topic that it’s being described in the book. This is a beginner to mid level book, so you’ll definitely will not be seeing any advance MySQL features like replication, tuning, and performance (also mainly because this book covers MySQL 5.0)
 
 ### Rating 4/5
 
