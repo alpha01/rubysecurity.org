@@ -13,7 +13,7 @@ created: 1364367122
 
 Aside APC, as far as I know XCache is the second most popular PHP caching optimizer. So I manually compiled and installed XCache on my www.rubyninja.org VM and configured the WordPress W3 Total Cache plugin to use the XCache optimizer and ran the same benchmarks test that I did when APC was enabled.
 
-After a few tests, the total requests per second was around 24-25 seconds. Slightly slower than APC. However, unlike APC, I noticed that with XCache the overall server load was less (peak at about 3.3), in addition the I/O system activity also appeared to be less than with APC. 
+After a few tests, the total requests per second was around 24-25 seconds. Slightly slower than APC. However, unlike APC, I noticed that with XCache the overall server load was less (peak at about 3.3), in addition the I/O system activity also appeared to be less than with APC.
 
 ```bash
 Concurrency Level:      5

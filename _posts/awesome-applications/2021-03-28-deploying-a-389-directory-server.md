@@ -18,11 +18,13 @@ Ever since <a href="https://developers.redhat.com/articles/faqs-no-cost-red-hat-
 ## Install
 
 1). Disable SELinux (yes, I know. I should do better..)
+
 ```bash
 sudo setenforce 0
 ```
 
 2). Update firewall
+
 ```bash
 firewall-cmd --permanent --add-port={389/tcp,636/tcp,9830/tcp}
 firewall-cmd --reload
@@ -30,6 +32,7 @@ firewall-cmd --list-all
 ```
 
 3). Install epel repo
+
 ```bash
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 yum module install 389-directory-server:stable/default
@@ -50,6 +53,7 @@ suffix = dc=rubyninja,dc=org
 ```
 
 5). Create 389 DS instance
+
 ```bash
 dscreate from-file nstance.inf
 ```
@@ -121,12 +125,11 @@ openssl req \
 -config certs/ca-selfsign-ssl.cnf \
 -out certs/ssl.csr
 
-
 # sign cert
 openssl x509 -req -in certs/ssl.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -days 2048 -sha256 -extensions san -extfile certs/ca-selfsign-ssl.cnf -out certs/ssl.crt
 ```
 
-3). Then I had to **certutil utility to view the names and attributes the default SSL certs had. 
+3). Then I had to **certutil utility to view the names and attributes the default SSL certs had.
 
 ```bash
 [root@ldap]# certutil -L -d /etc/dirsrv/slapd-localhost/ -f /etc/dirsrv/slapd-localhost/pwdfile.txt
@@ -170,7 +173,7 @@ pk12util -d /etc/dirsrv/slapd-localhost/ -i certs/ssl.pfx
 systemctl restart dirsrv@localhost
 ```
 
-### Resources:
+### Resources
 
 * <a href="https://directory.fedoraproject.org/docs/389ds/howto/quickstart.html#setup-the-instance" target="blank">https://directory.fedoraproject.org/docs/389ds/howto/quickstart.html#setup-the-instance</a>
 * <a href="https://directory.fedoraproject.org/docs/389ds/howto/howto-install-389.html" target="_blank">https://directory.fedoraproject.org/docs/389ds/howto/howto-install-389.html</a>

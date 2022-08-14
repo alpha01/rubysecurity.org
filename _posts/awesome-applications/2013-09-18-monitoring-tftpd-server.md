@@ -27,6 +27,7 @@ As with just about any other service, this service can be monitored using Nagios
 
 This lead me to the path of writing my own custom solutions. So I wrote a simple Nagios plugin that monitors TFTP. All it simply does, is download a non-empty file called test.txt.
 
+<!-- markdownlint-disable -->
 ```perl
 #!/usr/bin/perl -w
 # Tony Baltazar. root[@]rubyninja.org
@@ -85,10 +86,11 @@ Optionally,
 EOF
 }
 ```
+<!-- markdownlint-enable -->
 
-<a href="https://github.com/alpha01/SysAdmin-Scripts/blob/master/nagios-plugins/check_tftp.pl" target="_blank">https://github.com/alpha01/SysAdmin-Scripts/blob/master/nagios-plugins/check_tftp.pl</a>
+<a href="https://github.com/alpha01/SysAdmin-Scripts/blob/master/nagios-plugins/check_tftp.pl" target="_blank">check_tftp.pl</a>
 
-### Seeing the plugin in action:
+### Seeing the plugin in action
 
 Assuming, we're using `port udp 1069` to allow the TFTP server (192.168.1.2) to connect to the Nagios monitoring machine.
 

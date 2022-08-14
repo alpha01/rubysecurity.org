@@ -48,6 +48,8 @@ cp sample-config/nsca.xinetd /etc/xinetd.d/nsca
 
 Update `/etc/xinetd.d/nsca.xinetd/nsca` (where 10.10.1.20 is the client IP that will be passively checked)
 
+<!-- markdownlint-disable -->
+Enable all rules:
 ```bash
 # default: on
 	# description: NSCA
@@ -65,8 +67,9 @@ Update `/etc/xinetd.d/nsca.xinetd/nsca` (where 10.10.1.20 is the client IP that 
 		only_from       = 10.10.1.20
 	}
 ```
+<!-- markdownlint-enable -->
 
-Restart `xinet.d` 
+Restart `xinet.d`
 
 ```bash
 service xinetd restart
@@ -92,9 +95,7 @@ chmod 400 /usr/local/nagios/etc/nsca.cfg
 chown nagios.nagios /usr/local/nagios/etc/nsca.cfg
 ```
 
-
-Now lets configure the client machine. The same dependencies also need to be installed on the client system. I also went ahead and download and compiled nsca. (In theory I could of just copied over the send_nsca binary that was compiled on the Nagios server since both are x64 Linux systems).
-Once compiled, copy the send_nsca binary and update its permissions.
+Now lets configure the client machine. The same dependencies also need to be installed on the client system. I also went ahead and download and compiled nsca. (In theory I could of just copied over the send_nsca binary that was compiled on the Nagios server since both are x64 Linux systems). Once compiled, copy the send_nsca binary and update its permissions.
 
 ```bash
 cp src/send_nsca /usr/local/nagios/bin/
@@ -108,7 +109,7 @@ Copy the sample send_nsca.cfg config file and update the encryption settings, th
 cp sample-config/send_nsca.cfg /usr/local/nagios/etc/
 ```
 
-Finally, update the permissions so no one can read the password. 
+Finally, update the permissions so no one can read the password.
 
 ```bash
 chown nagios.nagios /usr/local/nagios/etc/send_nsca.cfg 

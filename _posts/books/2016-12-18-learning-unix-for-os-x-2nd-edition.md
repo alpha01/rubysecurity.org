@@ -10,8 +10,8 @@ created: 1482031403
 ---
 
 Learning Unix for OS X is an easy to learn introduction to the Unix command line. Since Bash is the default shell Apple ships OS X with, all examples in this book are done using the Bash shell. This book will basically hold your hand through the entire process of learning how to work in the command line environment. You’ll learn simple things like creating files and directories, working with symlinks and hardlinks, shell aliases, shell I/O, Unix pipes, and a generic overview of the Unix file system directory structure. Perhaps one of the most important things someone can get out of this book is learning how to use Vi/Vim. This book will teach you the basics of Vim, ie; editing new or existing files, searching/replace text, etc.
- 
-I was pleasantly surprised that this book covered basic network command line utilities like `ssh` and `curl`. If anything, it would've been helpful if it also mentioned `rsync`, given how incredibly useful that program is. 
+
+I was pleasantly surprised that this book covered basic network command line utilities like `ssh` and `curl`. If anything, it would've been helpful if it also mentioned `rsync`, given how incredibly useful that program is.
 
 One important aspect before start reading this book is that it assumes the reader doesn’t know anything about Unix culture. So anyone who reads this book will get up to date with the generic Unix terminologies (and in the process becoming a legit computer geek)
 
@@ -37,9 +37,9 @@ ftp
 curl
 ```
 
-Although it may technically fall out of scope, it would’ve been great if this book covered  <a href="http://brew.sh/" target="_blank">homebrew</a>.  The reason being is that practically any sysadmin or developer using MacOS relies on <a href="http://brew.sh/" target="_blank">homebrew</a> in way or another. It's become a really important tool in the Mac OS X ecosystem, that essentially follows other Unix like operating systems of how software is traditionally distributed, installed, and updated. 
+Although it may technically fall out of scope, it would’ve been great if this book covered  <a href="http://brew.sh/" target="_blank">homebrew</a>.  The reason being is that practically any sysadmin or developer using MacOS relies on <a href="http://brew.sh/" target="_blank">homebrew</a> in way or another. It's become a really important tool in the Mac OS X ecosystem, that essentially follows other Unix like operating systems of how software is traditionally distributed, installed, and updated.
 
-Regular expressions are briefly covered in book. In my opinion the regex material covered is enough for basically 90% of your text matting pattern needs. Anyone totally new to regular expressions can confidently have the basic knowledge of pattern matching after reading this book. 
+Regular expressions are briefly covered in book. In my opinion the regex material covered is enough for basically 90% of your text matting pattern needs. Anyone totally new to regular expressions can confidently have the basic knowledge of pattern matching after reading this book.
 
 This book was published on January 2016, and I feel the chapter on X11 is practically useless nowadays. Aside from games, I can't recall a time I needed X11 on my OS X system. It took years for all major X11 applications that I used over the last decade, for example OpenOffice, GIMP, Wireshark, to name a few. To all be ported and run natively on OS X without the need of having X11 installed.
 

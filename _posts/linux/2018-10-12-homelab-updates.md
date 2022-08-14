@@ -20,13 +20,14 @@ This this was somewhat of a fresh start, so I nuked a bunch of unused VMs that I
 * `dhcp` - ISC-dhcpd and PXE server
 * `database` - MySQL and PostgreSQL server
 * `monitor` -  Nagios, Graphite/Grafana
-* `web` - Apache 
+* `web` - Apache
 * `ns1` - Master BIND server
 * `ns2` - Slave BIND server
-* `git` -  GitLab and Subversion 
-* `ansible`  - Ansible and Puppet Configuration Management 
-* `build` - Jenkins 
+* `git` -  GitLab and Subversion
+* `ansible`  - Ansible and Puppet Configuration Management
+* `build` - Jenkins
 * `logs` - ELK stack
 
-Future Plans:
+## Future Plans
+
 I have lots of future plans for my homelab. Like upgrading my BIND DNS servers to a new version and rollout out DNSSec on my local network, upgrading dhcp server (running a really old version of Debian), rollout 389 Directory Server (I have a love/hate relationship with openldap). These are just to name a few!

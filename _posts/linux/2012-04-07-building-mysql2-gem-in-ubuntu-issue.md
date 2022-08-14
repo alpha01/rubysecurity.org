@@ -11,8 +11,9 @@ title: Building mysql2 gem in Ubuntu issue
 created: 1333834148
 ---
 
-### Error:
+### Error
 
+<!-- markdownlint-disable -->
 ```bash
 Installing mysql2 (0.3.11) with native extensions 
 Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
@@ -78,8 +79,9 @@ Provided configuration options:
 	--with-mysqlclientlib
 	--without-mysqlclientlib
 ```
+<!-- markdownlint-enable -->
 
-### Fix:
+### Fix
 
 ```bash
 sudo apt-get install libmysqld-pic

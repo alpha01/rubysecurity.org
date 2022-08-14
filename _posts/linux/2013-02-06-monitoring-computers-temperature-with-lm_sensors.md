@@ -12,7 +12,7 @@ title: Monitoring computer's temperature with lm_sensors
 created: 1360127978
 ---
 
-One of the primary reasons I use SSD drives on both of my Mac Minis that I use as hypervisors (besides speed), is that compared to regular hard drives, SSD drives consume far less power and more importantly generate less heat. Before using SSD drives on my machines, the fan noise both of them made during the middle of summer was pretty evident compared to any other time during the year. 
+One of the primary reasons I use SSD drives on both of my Mac Minis that I use as hypervisors (besides speed), is that compared to regular hard drives, SSD drives consume far less power and more importantly generate less heat. Before using SSD drives on my machines, the fan noise both of them made during the middle of summer was pretty evident compared to any other time during the year.
 
 Although at the time I did little research about proactively monitoring the temperature of my machines, now thanks to the <a href="http://nostarch.com/nagios.htm" target="_blank">Nagios</a> book that I'm currently reading, I learned about the tool lm-sensors, which is available to monitor the hardware temperature in Linux.
 
@@ -22,7 +22,7 @@ Installing `lm-sersors` in Ubuntu Server 12.04 is really simple.
 sudo apt-get install libsensors4 libsensors4-dev lm-sensors
 ```
 
-Since `lm-sensor`s requires low-level hooks to monitor hardware temperate, it comes with the utility `sensors-detect`, which can be used to automatically detect and load the appropriate kernel modules for the `lm-sensors` tool to function on the respective piece of hardware. 
+Since `lm-sensor`s requires low-level hooks to monitor hardware temperate, it comes with the utility `sensors-detect`, which can be used to automatically detect and load the appropriate kernel modules for the `lm-sensors` tool to function on the respective piece of hardware.
 
 ```bash
 tony@mini02:~$ sudo sensors-detect 
@@ -70,6 +70,7 @@ tony@mini02:~$
 
 Now that the appropriate kernel modules have been loaded. I have everything needed to check the temperature.
 
+<!-- markdownlint-disable -->
 ```bash
 tony@mini02:~$ sensors
 coretemp-isa-0000
@@ -106,6 +107,7 @@ TCSc:         +50.0°C
 TCTD:        +255.5°C  
 TCXC:         +49.5°C  
 ```
+<!-- markdownlint-enable -->
 
 Of course, I just had to write a Nagios plugin to monitor them:
 
@@ -132,28 +134,28 @@ my $counter = 0;
 my $output_string;
 
 for my $heat_usage_per_core (@get_current_heat) {
-	$heat_usage_per_core =~ /(.*):\s+\+([0-9]{1,3})/;
-	my $core = $1;
-	my $temp = $2;
-	
-	
-	if ($temp < $THRESHOLDS{OK}) {
-		$output_string .= "$core - temperature : $temp" . 'C | ';
-		$counter++;
-	} elsif ( ($temp > $THRESHOLDS{OK}) && ($temp >= $THRESHOLDS{WARNING}) && ($temp < $THRESHOLDS{CRITICAL}) ) {
-		print "WARNING! $core temperature: $temp\n";
-		exit(WARNING);
-	} elsif ( ($temp > $THRESHOLDS{OK}) && ($temp > $THRESHOLDS{WARNING}) && ($temp >= $THRESHOLDS{CRITICAL}) ) { 
-		print "CRITICAL! $core temperature: $temp\n";
-		exit(CRITICAL);
-	}
+    $heat_usage_per_core =~ /(.*):\s+\+([0-9]{1,3})/;
+    my $core = $1;
+    my $temp = $2;
+
+
+    if ($temp < $THRESHOLDS{OK}) {
+        $output_string .= "$core - temperature : $temp" . 'C | ';
+        $counter++;
+    } elsif ( ($temp > $THRESHOLDS{OK}) && ($temp >= $THRESHOLDS{WARNING}) && ($temp < $THRESHOLDS{CRITICAL}) ) {
+        print "WARNING! $core temperature: $temp\n";
+        exit(WARNING);
+    } elsif ( ($temp > $THRESHOLDS{OK}) && ($temp > $THRESHOLDS{WARNING}) && ($temp >= $THRESHOLDS{CRITICAL}) ) { 
+        print "CRITICAL! $core temperature: $temp\n";
+        exit(CRITICAL);
+    }
 }
 
 if ($counter == 3 ) {
-	print $output_string;
-	exit(OK);
+    print $output_string;
+    exit(OK);
 } else {
-	print "Unable to get all CPU's temperature.\n";
-	exit(UNKNOWN);
+    print "Unable to get all CPU's temperature.\n";
+    exit(UNKNOWN);
 }
 ```

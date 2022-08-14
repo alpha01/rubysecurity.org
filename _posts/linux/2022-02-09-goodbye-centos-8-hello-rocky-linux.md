@@ -9,7 +9,7 @@ layout: post
 title: "Goodbye CentOS 8, Hello Rocky Linux"
 created: 1644368721
 ---
-I'm over two months late, to the deadline as support for CentOS 8 stopped on December 31, 2021 and now the project is focusing on the CentOS 8 Stream rolling update distro. 
+I'm over two months late, to the deadline as support for CentOS 8 stopped on December 31, 2021 and now the project is focusing on the CentOS 8 Stream rolling update distro.
 
 Instead of converting my CentOS 8 to Stream, I opted to the popular approach of just dumping CentOS in favor of Rocky Linux. The migrating process itself was super easy.  My original CentOS 8 system was NOT running the latest version of CentOS prior to its End-Of-Life.
 
@@ -70,11 +70,11 @@ mail.rubyninja.org | SUCCESS => {
 }
 ```
 
-The beauty of binary compatible Linux distributions is that although updates are from new repackaged packages, when applied they work flawlessly. 
+The beauty of binary compatible Linux distributions is that although updates are from new repackaged packages, when applied they work flawlessly.
 
 Ironically, over a decade ago I had to do similar migration from <a href="https://www.whiteboxlinux.org/" target="_blank">White Box Enterprise Linux</a> to CentOS 3.  At the time, I simply had to update the repo URLs, refresh yum, and pull down the latest updates from the CentOS 3 repos. All of which  worked beautifully.
 
-### Resources:
+### Resources
 
 * <a href="https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky" target="_blank">https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky</a>
 * <a href="https://www.cyberciti.biz/howto/migrate-from-centos-8-to-rocky-linux-conversion/" target="_blank">https://www.cyberciti.biz/howto/migrate-from-centos-8-to-rocky-linux-conversion</a>

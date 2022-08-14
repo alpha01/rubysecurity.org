@@ -37,8 +37,8 @@ Since my computer is already using two other 500GB external USB drives, I had to
 
 ```bash
 sudo hdparm -I /dev/sdd|grep Serial
-	Serial Number:      J2260051H80D8C
-	Transport:          Serial, ATA8-AST, SATA 1.0a, SATA II Extensions, SATA Rev 2.5, SATA Rev 2.6; Revision: ATA8-AST T13 Project D1697 Revision 0b
+  Serial Number:      J2260051H80D8C
+  Transport:          Serial, ATA8-AST, SATA 1.0a, SATA II Extensions, SATA Rev 2.5, SATA Rev 2.6; Revision: ATA8-AST T13 Project D1697 Revision 0b
 ```
 
 Now that I know the serial number of the USB drive, I can configure my VirtualBox Linux ZFS server VM to automatically use the drive.
@@ -68,8 +68,8 @@ tmpfs                 1.5G     0  1.5G   0% /dev/shm
  action: The pool can be imported using its name or numeric identifier.
  config:
 
-	backups     ONLINE
-	  sdb       ONLINE
+  backups     ONLINE
+    sdb       ONLINE
 [root@backup ~]# zpool import backups
 [root@backup ~]# df -h
 Filesystem            Size  Used Avail Use% Mounted on

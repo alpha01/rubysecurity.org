@@ -10,13 +10,14 @@ created: 1550898292
 ---
 
 I had to look up my Amazon purchase order history to find out that I bought this book back on November 26, 2013. So by the current RHCSA and RHCE exam curriculum, this book has a somewhat minor amount of topics that are completely deprecated (enough to fail the RCSHA Exam) This book was originally for RHEL 6, it even goes as far as mentioning the difference between RHEL 5 and 6. Which by today's standards RHEL 5 is almost end-of-lifed.
-This book should be one of many different resources you should use when learning Red Hat Enterprise Linux in depth. Doing a simple Google search should help you weed out the old RHEL 6 material while reading this book. 
 
-One of the reasons why I enjoy reading certification books is because of the practice exam questions and labs they have included. The questions and labs in this book are fairly good. Even if you’re not planning on taking the exams, these type of books give you good exposure to a variety amount of topics and scenarios any Linux system administrator can encounter in their professional environment, and give you practically experience. 
+This book should be one of many different resources you should use when learning Red Hat Enterprise Linux in depth. Doing a simple Google search should help you weed out the old RHEL 6 material while reading this book.
+
+One of the reasons why I enjoy reading certification books is because of the practice exam questions and labs they have included. The questions and labs in this book are fairly good. Even if you’re not planning on taking the exams, these type of books give you good exposure to a variety amount of topics and scenarios any Linux system administrator can encounter in their professional environment, and give you practically experience.
 
 A ton of material is covered in this book and I feel it covers just enough for you understand each topic at a basic high-level. It doesn’t go into deep details, otherwise this book would probably be 5,000 pages and not 500.
 
-To conclude, I was shocked to see that a massive publishing company like Pearson didn’t bothered hiring a single technical editor for this book. This book was plagued with errors! Some of the errors were simple typos to some rudimentary wrong technical information, that it would’ve been fairly easy for a technical editor to catch.  I felt this hurt the overall quality of this book. 
+To conclude, I was shocked to see that a massive publishing company like Pearson didn’t bothered hiring a single technical editor for this book. This book was plagued with errors! Some of the errors were simple typos to some rudimentary wrong technical information, that it would’ve been fairly easy for a technical editor to catch.  I felt this hurt the overall quality of this book.
 
 ### Rating: 3/5
 

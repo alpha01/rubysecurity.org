@@ -12,8 +12,7 @@ created: 1436239082
 
 One of the reasons I love Ansible over any other config management tool is because of its simplistic design and ease of use. It literally took me less than 15 minutes to write a set of playbooks to manage my local git server.
 
-git_server_setup.yml - configures base server git repository configuration. 
-
+git_server_setup.yml - configures base server git repository configuration.
 
 ```yaml
 ---
@@ -32,10 +31,10 @@ git_server_setup.yml - configures base server git repository configuration.
     file: path=/home/git mode=2770
 ```
 
-
 `create_git_user.yml` - creates local system git user accounts.
 
 {% raw %}
+
 ```yaml
 ---
 - hosts: git
@@ -56,11 +55,13 @@ git_server_setup.yml - configures base server git repository configuration.
     confirm: yes
     salt_size: 7
 ```
+
 {% endraw %}
 
 `create_git_repo.yml` - creates an empty bare git repository.
 
 {% raw %}
+
 ```yaml
 ---
 - hosts: git
@@ -76,4 +77,5 @@ git_server_setup.yml - configures base server git repository configuration.
   - name: Updating repo permissions
     file: path=/home/git/{{ repo_name }} recurse=yes owner=git
 ```
+
 {% endraw %}
