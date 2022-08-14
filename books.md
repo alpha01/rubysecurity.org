@@ -9,7 +9,7 @@ categories: header
 
 <!-- markdownlint-disable -->
 {% for post in site.categories.books %}
-</li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 <!-- markdownlint-enable -->
 
