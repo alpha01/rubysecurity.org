@@ -15,6 +15,8 @@ Deep-Dive Terraform on Azure: Automated Delivery and Deployment of Azure Solutio
 The book covers core Terraform concepts like resources, data sources, providers, modules, versioning, and state management.
 As well as more advance topics like security, testing, and CI/CD pipelines. It goes in depth into the best practices of implementing Terraform efficiently in Azure. One section I will definitely will come back to re-read, is the section on testing Terraform using <a href="https://terratest.gruntwork.io/" target="_blank">Terratest</a>, given that it requires having knowledge of Golang. (and the fact that I've had a long interest in learning Go, and now I have the perfect excuse to do so!)
 
+My only negative on this book is on the CI/CD portion, it's using Azure Pipelines as the CI/CD platform. It's quite clear that the community has chosen GitHub Actions as the defacto CI/CD platform, and also the fact that it's a Microsoft Product, I would've liked this chapter used GitHub Actions instead of Azure Pipelines. Thus said, it's quite easy to follow along using GitHub Actions without much effort, and the principles can be applied regardless of the CI/CD platform.
+
 ### Rating: 3/5
 
 Deep-Dive Terraform on Azure: Automated Delivery and Deployment of Azure Solutions
