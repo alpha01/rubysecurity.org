@@ -6,6 +6,7 @@ tags:
   - github
   - varnish
   - nginx
+  - jekyll
 layout: post
 title: Moved antoniobaltazar.com to GitHub Pages
 ---
