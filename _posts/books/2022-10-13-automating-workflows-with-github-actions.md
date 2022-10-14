@@ -21,12 +21,12 @@ Workflows with GitHub Actions
 
 <a href="https://www.packtpub.com/product/automating-workflows-with-github-actions/9781800560406" target="_blank"><img src="/assets/books/automating-workflows-with-github-actions.png"></a>
 
-Chapter 1: Learning the Foundations for GitHub Actions
-Chapter 2: Deep Diving into GitHub Actions
-Chapter 3: A Closer Look at Workflows
-Chapter 4: Working with Self-Hosted Runners
-Chapter 5: Writing Your Own Actions
-Chapter 6: Marketplace – Finding Existing Actions and Publishing Your Own
-Chapter 7: Migrations
-Chapter 8: Contributing to the Community and Finding Help
-Chapter 9: The Future of GitHub Actions
+* Chapter 1: Learning the Foundations for GitHub Actions
+* Chapter 2: Deep Diving into GitHub Actions
+* Chapter 3: A Closer Look at Workflows
+* Chapter 4: Working with Self-Hosted Runners
+* Chapter 5: Writing Your Own Actions
+* Chapter 6: Marketplace – Finding Existing Actions and Publishing Your Own
+* Chapter 7: Migrations
+* Chapter 8: Contributing to the Community and Finding Help
+* Chapter 9: The Future of GitHub Actions
