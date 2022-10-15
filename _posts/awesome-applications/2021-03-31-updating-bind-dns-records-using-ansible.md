@@ -15,7 +15,7 @@ This is a follow up to the post. <a href="https://www.rubysecurity.org/Configure
 
 I'll be using the <a href="https://docs.ansible.com/ansible/latest/collections/community/general/nsupdate_module.html" target="_blank">community.general.nsupdate</a> module.
 
-I constructed my DNS records on my nameserver's corresponding Ansible group_vars using the following structure:
+I constructed my DNS records on my nameserver's corresponding Ansible `group_vars` using the following structure:
 
 ```yaml
 all_dns_records:
@@ -150,4 +150,4 @@ My DNS deployment a playbook breakdown:
 5. For good measure, but not necessary: Checks each individual zone file
 6. Force dynamic changes to be applied to disk.
 
-Given that in my environment I have roughly a couple of dozen DNS records, the structured for DNS records works in my environment. Thus said, my group_vars file with all my DNS records is almost 600 lines long. The playbook executing run takes around 1-2 minutes to complete. If I were to be in an environment where I had thousands of DNS records, the approached that I described here might not be the most efficient.
+Given that in my environment I have roughly a couple of dozen DNS records, the structured for DNS records works in my environment. Thus said, my `group_vars` file with all my DNS records is almost 600 lines long. The playbook executing run takes around 1-2 minutes to complete. If I were to be in an environment where I had thousands of DNS records, the approached that I described here might not be the most efficient.
