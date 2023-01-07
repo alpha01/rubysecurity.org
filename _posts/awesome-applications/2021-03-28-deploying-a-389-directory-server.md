@@ -129,7 +129,7 @@ openssl req \
 openssl x509 -req -in certs/ssl.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -days 2048 -sha256 -extensions san -extfile certs/ca-selfsign-ssl.cnf -out certs/ssl.crt
 ```
 
-3). Then I had to **certutil utility to view the names and attributes the default SSL certs had.
+3). Then I had to `certutil` utility to view the names and attributes the default SSL certs had.
 
 ```bash
 [root@ldap]# certutil -L -d /etc/dirsrv/slapd-localhost/ -f /etc/dirsrv/slapd-localhost/pwdfile.txt
