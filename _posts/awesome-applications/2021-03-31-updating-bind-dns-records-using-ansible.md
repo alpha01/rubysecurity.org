@@ -10,7 +10,7 @@ tags:
 title: Updating BIND DNS records using Ansible
 created: 1617169192
 ---
-This is a follow up to the post. <a href="https://www.rubysecurity.org/Configure-BIND-to-support-DDNS-updates" target="_blank">Configure BIND to support DDNS updates
+This is a follow up to the post. <a href="https://www.rubysecurity.org/awesome-applications/bind/configure-bind-to-support-ddns-updates" target="_blank">Configure BIND to support DDNS updates
 </a> Now, that I'm able to dynamically update DNS records, this is where Ansible comes in. Ansible is hands down my favorite orchestration/automation tool. So I choose to use it to update my local DNS records going forward.
 
 I'll be using the <a href="https://docs.ansible.com/ansible/latest/collections/community/general/nsupdate_module.html" target="_blank">community.general.nsupdate</a> module.
