@@ -34,6 +34,7 @@ This is just the initial setup doc, of course I'm going to be adding more compon
 * MetalLB (LB IP Addressing)
 * Nginx Ingress Controller (Ingress)
 * Cert-manager ACME Let's Encrypt Issuer (SSL/TLS)
+* Istio (Service Mesh)
 * Keycloak (Identity Provider)
 * Knative (Serverles)
 * Longhorn (Block Storage)
