@@ -73,18 +73,11 @@ helm install metallb metallb/metallb --version 0.14.8 --create-namespace -n meta
 4). MetalLB Configuration for the Nginx Ingress Controller for Rancher
 
 ```yaml
-kubectl apply -f - <<EOF
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: metallb-system
-  labels:
-    name: external-dns
+kubectl -n metallb-system apply -f - <<EOF
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
   name: rancher
-  namespace: metallb-system
 spec:
   addresses:
   - 192.168.1.71-192.168.1.73
@@ -93,14 +86,13 @@ apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
 metadata:
   name: rancher
-  namespace: metallb-system
 spec:
   ipAddressPools:
   - rancher
 EOF
 ```
 
-5). Install Nginx Ingress Controller
+5). Install Nginx Ingress Controller.
 
 ```bash
 helm install ingress-nginx ingress-nginx/ingress-nginx --version 4.11.3 -n ingress-system
@@ -187,7 +179,7 @@ EOF
 
 Afterwards, the kubernetes.io/tls type Secret `rancher-k8s-rubyninja-org` was created on the cattle-system namespace with the corresponding certificate key pair issued by Let's Encrypt. The [Cert-manager Troubleshooting](https://cert-manager.io/docs/troubleshooting/) documentation has really straight forward explanation of the entire issuer process in case you run into problems getting an SSL/TLS certificate.
 
-10). Finally install Rancher
+10). Finally, install Rancher.
 
 ```bash
 helm upgrade --install rancher rancher-stable/rancher --version 2.9.2 \
