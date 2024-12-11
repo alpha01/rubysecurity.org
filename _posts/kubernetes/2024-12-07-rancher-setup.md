@@ -6,6 +6,7 @@ tags:
   - kubernetes
   - rancher
   - cert-manager
+  - letsencrypt
 layout: post
 title: Deploying Rancher on my Homelab
 ---
