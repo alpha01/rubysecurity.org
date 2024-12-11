@@ -37,7 +37,7 @@ alpha03:tests $ ./test-module.rb
 Executed via command line.
 ```
 
-If the module gets included the ```if __FILE__ == $0`` block will evaluate to `false`. Example script called `test.rb`
+If the module gets included the `if __FILE__ == $0` block will evaluate to `false`. Example script called `test.rb`
 
 ```ruby
 #!/usr/bin/env ruby
