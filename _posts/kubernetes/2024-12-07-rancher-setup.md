@@ -143,7 +143,6 @@ spec:
     privateKeySecretRef:
       name: letsencrypt-cloudflare-prod-key
     solvers:
-      #
       - dns01:
           cloudflare:
             email: <RETRACTED>
