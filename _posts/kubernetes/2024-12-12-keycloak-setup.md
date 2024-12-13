@@ -12,7 +12,7 @@ layout: post
 title: Deploying Keycloak Identity Provider (IdP) for secure Rancher User Authentication Part 1
 ---
 
-No words can explain the constant headaches I've gotten throughout my career when working with LDAP in the Unix/Linux world. While I've had plenty of experience working with it in the past ([https://www.rubysecurity.org/tag/ldap](https://www.rubysecurity.org/tag/ldap)), it's certainly not the easiest or pleasant thing to work with.
+No words can explain the constant headaches I've gotten throughout my career when working with LDAP in the Unix/Linux world. While I've had plenty of experience working with it in the past ([https://www.rubysecurity.org/tag/ldap](https://www.rubysecurity.org/tag/ldap)), it's certainly not the easiest or pleasant thing to work with. So I'm glad to see new (to me at least) Identity Provider (IdP) tools like <a href="https://www.keycloak.org/" target="_blank">Keycloak</a> that can help us manage user identities, authentication, and access control across applications and systems in a much easier fashion. But more importantly supporting integrations with authentication mechanisms like OpenID Connect (OIDC), OAuth2, SAML to name a few.
 
 ### Environment Setup
 
