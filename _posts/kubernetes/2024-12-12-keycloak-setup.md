@@ -1,0 +1,63 @@
+---
+categories:
+  - kubernetes
+  - rancher
+  - keycloak
+tags:
+  - kubernetes
+  - rancher
+  - keycloak
+  - security
+layout: post
+title: Deploying Keycloak Identity Provider (IdP) for secure Rancher User Authentication
+---
+
+No words can explain the constant headaches I've gotten throughout my career when working with LDAP in the Unix/Linux world. While I've had plenty of experience working with it in the past ([https://www.rubysecurity.org/tag/ldap](https://www.rubysecurity.org/tag/ldap)), it's certainly not the easiest or pleasant thing to work with.
+
+### Environment Setup
+
+To get up and running quickly, I opted to deploy Keycloak on a Ubuntu 24.04 VM instead of the container/kubernetes approach.
+
+1). Install required packages.
+
+```bash
+apt install openjdk-21-jre unzip
+```
+
+2). Download and extract keycloak.
+
+```bash
+cd /opt
+wget https://github.com/keycloak/keycloak/releases/download/26.0.5/keycloak-26.0.5.zip
+unzip keycloak-26.0.5.zip
+ln -s keycloak-26.0.5 keycloak
+```
+
+3). Setup SSL certificates. At this stage, I had manually issued an Let's Encrypt SSL certificate for `sso.rubyninja.org` for Keycloak. and copied it over to `/opt/keycloak/conf/certs`
+
+4). Update the following settings on `/opt/keycloak/conf/keycloak.conf`.
+
+```bash
+# Hostname for the Keycloak server.
+hostname=sso.rubyninja.org
+
+# The file path to a private key in PEM format.
+https-certificate-key-file=/opt/keycloak/conf/certs/MYKEY.key
+
+# The file path to a server certificate or certificate chain in PEM format.
+https-certificate-file=/opt/keycloak/conf/certs/MYCERT.crt
+```
+
+5). Start up the application
+
+```bash
+screen -dm /opt/keycloak/bin/kc.sh start --verbose
+```
+
+During the first application startup, we're given the option to create a temp admin user, after which it's up to us to create permanent admin users.
+
+By no means this is a production ready setup, but for a homelab environment for testing, this setup is more than sufficient for me.
+
+### Resources
+
+* [https://www.keycloak.org/getting-started/getting-started-zip](https://www.keycloak.org/getting-started/getting-started-zip)
