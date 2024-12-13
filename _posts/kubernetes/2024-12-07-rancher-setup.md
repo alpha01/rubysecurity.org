@@ -39,6 +39,7 @@ This is just the initial setup doc, of course I'm going to be adding more compon
 * Keycloak (Identity Provider)
 * Knative (Serverles)
 * Longhorn (Block Storage)
+* Grafana Loki (Logs)
 
 0). Added the following Helm chart repositories:
 
