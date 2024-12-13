@@ -48,13 +48,22 @@ https-certificate-key-file=/opt/keycloak/conf/certs/MYKEY.key
 https-certificate-file=/opt/keycloak/conf/certs/MYCERT.crt
 ```
 
+5).  Create initial bootstrap admin username/password
+
+```bash
+/opt/keycloak/bin/kc.sh bootstrap-admin user
+Enter username [temp-admin]:temp-admin
+Enter password:
+Enter password again:
+```
+
 5). Start up the application
 
 ```bash
 screen -dm /opt/keycloak/bin/kc.sh start --verbose
 ```
 
-During the first application startup, we're given the option to create a temp admin user, after which it's up to us to create permanent admin users.
+After login in with the temp-admin account, I had to manually create a separate admin user.
 
 By no means this is a production ready setup, but for a homelab environment for testing, this setup is more than sufficient for me.
 
