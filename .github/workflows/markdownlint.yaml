@@ -1,4 +1,4 @@
-name: Markdownlint
+name: Test
 
 on: push
 jobs:
@@ -6,10 +6,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Step 1: Checkout the repository
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: markdownlint-cli
-      uses: nosborn/github-action-markdown-cli@v3.0.1
+    # Step 2: Set up Node.js environment
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16' # Specify Node.js version
+
+    # Step 3: Cache npm dependencies (optional, speeds up builds)
+    - name: Cache npm dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    # Step 4: Install npm dependencies
+    - name: Install npm dependencies
+      run: npm install
+
+    # Step 5: Run tests
+    - name: markdownlint-cli2-action
+      uses: DavidAnson/markdownlint-cli2-action@v9
       with:
         files: .
+
+    # Publish Test Results
+    - name: Publish Test Results
+      uses: dorny/test-reporter@v1
+      with:
+        name: JUnit Results
+        path: markdownlint-cli2-junit.xml  # Path to XML files
+        reporter: junit

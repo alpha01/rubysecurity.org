@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 .DS_Store
 TODO.txt
+node_modules/
+markdownlint-cli2-junit.xml
