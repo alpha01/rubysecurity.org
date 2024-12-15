@@ -41,4 +41,4 @@ jobs:
       with:
         name: JUnit Results
         path: markdownlint-cli2-junit.xml  # Path to XML files
-        reporter: junit
+        reporter: java-junit
