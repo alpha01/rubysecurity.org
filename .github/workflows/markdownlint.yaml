@@ -30,7 +30,7 @@ jobs:
       run: npm install
 
     # Step 5: Run tests
-    - name: markdownlint-cli2-action
+    - name: Run markdownlint test
       uses: DavidAnson/markdownlint-cli2-action@v9
       with:
         files: .
