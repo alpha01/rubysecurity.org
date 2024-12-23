@@ -7,7 +7,7 @@ tags:
   - zfs
   - testing
 layout: post
-title: Creating large files in Solaris for testing purposes
+title: Creating large files in Solaris for testing ZFS
 created: 1356392845
 ---
 
