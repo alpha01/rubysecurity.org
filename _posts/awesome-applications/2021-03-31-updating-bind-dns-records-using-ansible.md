@@ -144,10 +144,10 @@ Deployment Ansible playbook:
 My DNS deployment a playbook breakdown:
 
 1. Grabs the Dynamic DNS update keys from HashiCorp Vault
-2. Syncs all of @ $ORIGIN records for all zone.
+2. Syncs all of @ $ORIGIN records for all zones.
 3. Syncs all of the records.
-4. For good measure, but not necessary: Checks named.conf file
-5. For good measure, but not necessary: Checks each individual zone file
+4. For good measure, but not necessary: Checks named.conf file.
+5. For good measure, but not necessary: Checks each individual zone file.
 6. Force dynamic changes to be applied to disk.
 
 Given that in my environment I have roughly a couple of dozen DNS records, the structured for DNS records works in my environment. Thus said, my `group_vars` file with all my DNS records is almost 600 lines long. The playbook executing run takes around 1-2 minutes to complete. If I were to be in an environment where I had thousands of DNS records, the approached that I described here might not be the most efficient.
