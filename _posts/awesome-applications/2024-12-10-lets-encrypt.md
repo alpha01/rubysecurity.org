@@ -6,7 +6,7 @@ layout: post
 tags:
  - letsencrypt
  - security
-title: 
+title: "Let's Encrypt"
 ---
 
 I've been using <a href="https://letsencrypt.org/getting-started/" target="_blank">Let's Encrypt</a> for years, and it came to me that I've hardly ever really mentioned this awesome service at all! Let's Encrypt is awesome, plain and simple. I use to throughout my homelab to setup and configure secure access.
