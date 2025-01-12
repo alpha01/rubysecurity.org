@@ -2,11 +2,11 @@
 <h1>Currently Reading</h1>
 <div class="currently-reading" style="text-align: center;">
     <!-- Resize image 178x236 total_pages must be a float for liquid to play nice -->
-    {% assign title = "Certified Kubernetes Application Developer (CKAD) Study Guide, 2nd Edition" %}
-    {% assign url = "https://www.oreilly.com/library/view/certified-kubernetes-application/9781098152857/" %}
-    {% assign img = "/assets/images/ckad.png" %}
-    {% assign total_pages = 270.00 %}
-    {% assign current_page = 205 %}
+    {% assign title = "Certified Kubernetes Administrator (CKA) Study Guide" %}
+    {% assign url = "https://www.oreilly.com/library/view/certified-kubernetes-administrator/9781098107215/" %}
+    {% assign img = "/assets/images/cka-study-guide.png" %}
+    {% assign total_pages = 155.00 %}
+    {% assign current_page = 14 %}
 
     {{ title }}<br>
     {% assign total_percentage =  current_page | divided_by: total_pages | round: 2 | times: 100 %}
