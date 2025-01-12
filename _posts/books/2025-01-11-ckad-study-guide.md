@@ -4,7 +4,7 @@ categories:
   - kubernetes
 tags:
   - kubernetes
-  - kubestranout
+  - kubestronaut
 layout: post
 hidden: true
 title: Certified Kubernetes Application Developer (CKAD) Study Guide, 2nd Edition
